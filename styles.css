@@ -5,7 +5,6 @@ body {
   border: 5px solid #777777;
   margin: 30px auto;
   width: 40em;
-  /*height: 60em;*/
   padding: 32px;
 }
 
@@ -16,9 +15,14 @@ h1 {
   font-style: italic;
 }
 
+h2, nav, footer, h3 {
+  font-family: Arial, sans-serif;
+}
+
 nav, footer {
   text-align: center;
-  font-family: Arial, sans-serif;
+
+  color: #ccc;
 }
 
 #divide {
@@ -29,7 +33,7 @@ nav, footer {
 
 a {
   font-weight: bold;
-  color:#66CD9B;
+  color: #66CD9B;
 }
 
 .active {
@@ -46,12 +50,18 @@ section {
   padding-bottom: 30px;
 }
 
-section h2 {
-  font-family: Arial, sans-serif;
-}
-
 img {
   border: 1px solid #ccc;
-  padding: 7px;
-  margin-left: 10px;
+  padding: 5px;
+  margin-left: 15px;
+}
+
+#ptwo {
+  padding-right: 10px;
+}
+
+section h3 {
+  color: #bbb;
+  font-size: 1em;
+  letter-spacing: .2em;
 }
