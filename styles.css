@@ -21,14 +21,7 @@ h2, nav, footer, h3 {
 
 nav, footer {
   text-align: center;
-
   color: #ccc;
-}
-
-#divide {
-  color: #ccc;
-  font-weight: normal;
-  margin: 0 5px;
 }
 
 a {
