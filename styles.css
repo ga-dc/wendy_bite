@@ -58,3 +58,14 @@ section h3 {
   font-size: 1em;
   letter-spacing: .2em;
 }
+
+li {
+  font-family: Arial, sans-serif;
+  color: #fff;
+  list-style: square;
+}
+
+.details {
+  font-family: Georgia, serif;
+  color: #bbb;
+}
