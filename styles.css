@@ -1,6 +1,7 @@
 body {
   background-color: #444444;
   color: #fff;
+  font-family: Georgia, serif;
   border: 4px solid #777777;
   margin: 10px auto;
   width: 40em;
@@ -27,4 +28,18 @@ a {
 .active {
   text-decoration: none;
   color: #fff;
+}
+
+section {
+  border-top: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
+  margin: 20px auto;
+}
+
+section h2 {
+  font-family: Arial, sans-serif;
+}
+
+img {
+  
 }
