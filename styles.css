@@ -44,7 +44,7 @@ section {
 }
 
 img {
-  align=right;
+  float: right;
   border: 1px solid #ccc;
   padding: 5px;
   margin-left: 50px;
