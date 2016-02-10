@@ -44,13 +44,15 @@ section {
 }
 
 img {
+  align=right;
   border: 1px solid #ccc;
   padding: 5px;
-  margin-left: 15px;
+  margin-left: 50px;
+  margin-bottom: 50px;
 }
 
-#ptwo {
-  padding-right: 10px;
+.body {
+  padding-right: 50px;
 }
 
 .experience {
