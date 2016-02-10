@@ -1,0 +1,113 @@
+body {
+  background-color:#444444;
+}
+
+.container {
+  border: 7px solid;
+  border-color: #777777;
+  padding: 40px;
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.grey {
+  color: #999;
+  padding: 5px;
+}
+
+h1 {
+  font-family: georgia;
+  font-style: italic;
+  color: #fff;
+  font-weight: lighter;
+}
+
+h2 {
+  font-family: arial;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: arial;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #bbbbbb;
+  padding-top: 20px;
+}
+
+.job {
+  font-family: arial;
+  font-size: 18px;
+  color: #fff;
+  line-height: 150%;
+}
+
+.year {
+  font-family: arial;
+  font-size: 14px;
+  color: #bbbbbb;
+}
+
+p {
+  font-family: georgia;
+  font-size: 18px;
+  color: #fff;
+  line-height: 130%;
+}
+
+.description {
+  color: #bbbbbb;
+  line-height: 150%;
+}
+
+li {
+  list-style: square;
+  color: #fff;
+}
+
+.floatRight {
+  float: right;
+}
+
+header {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  border-bottom: 1px solid #999;
+  padding-bottom: 20px;
+}
+
+section[role=main] {
+  width: 600px;
+  margin: 0 auto;
+}
+
+a {
+  color: #fff;
+  font-family: arial;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+a:hover, a:active {
+  color: #00d59d;
+}
+
+footer {
+  text-align: center;
+  border-top: 1px solid #999;
+  padding: 30px;
+  margin-top: 30px;
+}
+
+img {
+  padding: 5px;
+  border: 1px solid #999;
+  margin-left: 10px;
+}
