@@ -71,7 +71,7 @@ li {
 }
 
 .job {
-
+  font-weight: bold;
 }
 
 .company {
@@ -79,5 +79,6 @@ li {
 }
 
 .years {
-  
+  font-size: .9em;
+  color: #bbb;
 }
