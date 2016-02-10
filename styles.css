@@ -5,7 +5,7 @@ body {
   border: 5px solid #777777;
   margin: 30px auto;
   width: 40em;
-  padding: 32px;
+  padding: 40px;
 }
 
 h1 {
@@ -39,8 +39,8 @@ section {
   border-bottom: 1px solid #ccc;
   margin: 20px auto;
   line-height: 150%;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 img {
@@ -51,6 +51,10 @@ img {
 
 #ptwo {
   padding-right: 10px;
+}
+
+.experience {
+  padding: 10px 0;
 }
 
 section h3 {
