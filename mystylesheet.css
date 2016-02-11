@@ -1,0 +1,86 @@
+/*I admit i did rely on the example, and a few online
+resources to figure this out, but I made sure to identify
+what each selector, property and value signified*/
+
+
+body{
+  background-color:black;
+  color: lightgreen;
+  border:5px solid green;
+  width:40em;
+  margin:auto;
+  padding:3em;
+  font: helvetica;
+}
+
+
+h1{
+  text-align: center;
+  font-weight:bold;
+  border: 5px dotted green;
+
+}
+
+h2{
+  text-align: center;
+  font-size: 45px;
+
+}
+p{
+  text-align: left;
+  font: helvetica;
+  margin-left: auto;
+
+}
+img{
+  border: 2px solid white;
+  padding:5px;
+  margin-left:1em;
+  float:right;
+  /*why does this look so wanky now*/
+}
+a{
+  color:white;
+  font-weight:bold;
+}
+
+main{
+  border-color:#ccc;
+  border-width:5px 0;
+  border-style:dotted;
+  padding:2em 0;
+  /*confused about this, the main is referring to that
+  one stupid line under the ul*/
+}
+
+header,
+footer{
+  text-align:center;
+  color:green;
+  /* I see that this is how you'd apply
+  characteristics across multiple selectors*/
+}
+
+header{
+  padding-bottom:20px;
+}
+footer{
+  padding-top:50px;
+  color: green;
+  /*why doesnt the color change here?*/
+}
+nav,
+footer{
+  color:darkgreen;
+  font-size:30px;
+}
+nav a,
+footer a{
+  font-size:1rem;
+  padding:0 10px;
+  display:inline-block;
+}
+nav a:not(:last-of-type),
+footer a:not(:last-of-type){
+  border-right:1px solid #ccc;
+}
