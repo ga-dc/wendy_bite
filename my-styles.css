@@ -1,0 +1,115 @@
+body {
+  display: flex;
+  background: #444444;
+  color: white;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+#main-container {
+  margin: 30px auto 0 auto;
+  width: 90%;
+  max-width: 680px;
+  border: 5px solid #777777;
+  padding: 5px;
+}
+header{
+  width: 100%;
+  margin-top: 50px;
+}
+h1 {
+  font-style: italic;
+  font-family: Times;
+  font-weight: 300;
+  text-align: center;
+  font-size: 2.1em;
+}
+ h3, h4 {
+  display: inline;
+  font-weight: bolder;
+  font-family:sans-serif;
+}
+h4 {
+  font-weight: lighter;
+}
+li {
+
+}
+nav {
+  text-align: center;
+  margin-bottom: 30px;
+  font-style: normal;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+a {
+  color:#66CD9B;
+}
+.active {
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+span {
+  font-weight: lighter;
+}
+section {
+  margin: 25px;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+}
+h2 {
+  margin: 50px 0 20px 0;
+  font-family: sans-serif;
+}
+p {
+  line-height: 1.5em;
+}
+img {
+  float: right;
+  border: 1px solid white;
+  padding: 5px;
+  position: relative;
+  margin: 0 auto 0 12px;
+}
+p.edu-ex {
+  margin: 0;
+}
+p:last-child {
+  margin-bottom: 50px;
+}
+footer {
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: bold;
+  margin:13px 0 50px 0;
+}
+.edu-ex {
+  opacity: .6;
+  font-family: Arial;
+  font-weight: normal;
+}
+#exp-ul>li {
+  list-style-type: square;
+  margin-bottom: -20px;
+}
+li.education-li {
+  margin-bottom: 15px;
+}
+/* to resize and realign .jpg when viewport gets smaller */
+@media screen and (max-width: 500px) {
+  img {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    float: none;
+  }
+  a {
+    display: block;
+    margin-bottom: 10px;
+  }
+  span {
+    display: none;
+  }
+}
