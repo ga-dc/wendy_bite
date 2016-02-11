@@ -1,0 +1,52 @@
+body {
+    background: rgb(75, 75, 75);
+    color: white;
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+header, footer {
+    text-align: center;
+    font-family: times;
+    padding: 10px;
+}
+
+h1 {
+    padding: 25px 0 10px 0;
+}
+
+h1, p {
+    font-family: serif;
+}
+
+p {
+    padding: 10px;
+}
+
+main {
+    border: 4px solid gray;
+    padding 5px;
+    display: inline-block;
+}
+
+nav a {
+    display: inline-block;
+    padding: 5px;
+    font-family: sans-serif;
+}
+
+nav a.active {
+    color: white;
+    border-right: 1px solid white;
+}
+
+img {
+    padding: 5px;
+    border: 1px solid white;
+    float: right;
+    margin: 3px;
+}
+
+footer {
+    text-align
+}
