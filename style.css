@@ -1,0 +1,116 @@
+  body {
+     background-color: #484848;
+     color: white;
+     }
+  #container {
+      border-style: solid;
+      border-color: #686868;
+      border-width: medium;
+      box-sizing: border-box;
+      margin-top: 60px;
+      margin-left: 60px;
+      margin-right: 60px;
+      margin-bottom: 60px;
+      padding-top: 30px;
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-bottom: 30px;
+  }
+  #about {
+      border-bottom: solid;
+      border-top: solid;
+      border-color: #686868;
+      border-width:medium;;
+      box-sizing:border-box;
+      margin-top: 10px;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+  }
+  #education {
+    font-family: sans-serif;
+  }
+  #queens {
+    font-family:sans-serif;
+  }
+  #brooklyn {
+    font-family: sans-serif;
+  }
+  h1 {
+    text-align: center;
+    size: 30px;
+    font-family: georgia;
+    font-style: italic;
+  }
+  h2 {
+    text-align:left;
+    size: 20px;
+    font-family: sans-serif;
+    border-top
+  }
+  nav {
+    font-family: sans-serif;
+    size: 16px;
+    text-align: center;
+  }
+  h3 {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: #A0A0A0
+  }
+ p {
+   text-align: left;
+   size: 16px;
+   font-style: normal;
+   font-family: georgia;
+ }
+footer {
+  text-align: center;
+  color: green;
+}
+a {
+  color: #99FF99;
+}
+img {
+  float: right;
+}
+.webdeveloper {
+  font-weight:bold;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+.copyeditor {
+  font-weight:bold;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+.masterknitter {
+  font-weight:bold;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+.senior {
+  font-weight:bold;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+.mintcandy {
+  font-weight:bold;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+.building{
+  color: #A0A0A0;
+}
+.reviewed {
+  color: #A0A0A0;
+}
+.delightful {
+  color: #A0A0A0;
+}
+.managedteam {
+  color: #A0A0A0;
+}
+.wonmultiple {
+  color: #A0A0A0;
+}
