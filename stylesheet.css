@@ -19,7 +19,7 @@ header {
     }
     a {
       font-weight: 900;
-      color: #00e6ac
+      color: #00e6ac;
     }
     .active {
       color: white;
@@ -39,6 +39,7 @@ header {
       border: 1px solid #ffffff;
       padding: 3px;
       margin: 0px 0px 10px 10px;
+      float: right;
     }
     p {
       line-height: 25px;
