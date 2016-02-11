@@ -1,0 +1,110 @@
+  body {
+    background-color: #444444;
+  }
+  .page  { 
+    background: #444444;
+    border: 5px solid #777777;
+    color: #fff;
+    margin: 2em auto;
+    padding: 2em;
+    width: 40em;
+    font-family: Arial;
+  } 
+  .resume { 
+    background: #444444;
+    border: 5px solid #777777;
+    margin: 2em auto;
+    padding: 2em;
+    width: 550px;
+    color: #fff;
+    font-family: Arial;
+  }
+  main {
+    border-style: solid;
+    border-color: #777777;
+    border-width: 1px 0;
+    padding: 1em 0;
+  }
+  nav {
+    padding-bottom: 1.5em;
+  }
+  h1 {
+    text-align: center;
+    font-style: italic;
+    font-weight: normal;
+    font-family: Georgia, serif;
+    text-decoration: none;
+    color: white;
+  }
+  p {
+    line-height: 150%;
+    font-family: Georgia;
+  }
+  a { 
+   color: #00d49b;
+   font-weight: bold; 
+ }
+ a:hover, a:active {
+  color: #fff;
+  text-decoration: none;
+ }
+ header, footer{
+  text-align: center;
+ }
+ h2{
+  text-align: left;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+ }
+  footer {
+    text-align: center;
+    color: #777777;
+    padding-top: 1.5em; 
+  }
+  h3 {
+    color: #b3b3b3;
+    font-size: 17px;
+    font-weight: bold;
+    padding-bottom: .5em;
+    padding-top: .5em;
+  }
+  img {
+    border: 1px solid #777777;
+    padding: 5px;
+    float: right;
+    margin-left: 1em;
+  }
+  .role {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .date, .description {
+    color: #b3b3b3;
+    font-weight: normal;
+  }
+  li {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    list-style-type: square; 
+    list-style-position: outside;
+    line-height: 1.2;
+  }
+  .school li {
+    line-height: .5em;
+  }
+  .company {
+    color: #fff;
+    font-weight: normal;
+    font-size: 15px;
+  }  
+ .date {
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+ }
+ .description {
+    font-family: Georgia;
+    text-align: left;
+    font-size: 14px;
+ }
