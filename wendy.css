@@ -23,10 +23,10 @@
     border-style: solid;
     border-color: #777777;
     border-width: 1px 0;
-    padding: 2em 0;
+    padding: 1em 0;
   }
   nav {
-    padding-bottom: 20px;
+    padding-bottom: 1.5em;
   }
   h1 {
     text-align: center;
@@ -60,7 +60,7 @@
   footer {
     text-align: center;
     color: #777777;
-    padding-top: 20px; 
+    padding-top: 1.5em; 
   }
   h3 {
     color: #b3b3b3;
@@ -78,7 +78,7 @@
   .role {
     color: white;
     font-weight: bold;
-    font-size: 17px;
+    font-size: 16px;
   }
   .date, .description {
     color: #b3b3b3;
@@ -88,18 +88,17 @@
     padding-top: .5em;
     padding-bottom: .5em;
     list-style-type: square; 
-    list-style-position: initial;
+    list-style-position: outside;
+    line-height: 1.2;
   }
-  .experience, {
-    line-height: 1.5;
-  }
-  .school {
-    line-height: .5;
+  .school li {
+    line-height: .5em;
   }
   .company {
     color: #fff;
     font-weight: normal;
-  
+    font-size: 15px;
+  }  
  .date {
     font-size: 12px;
     font-family: Arial, sans-serif;
