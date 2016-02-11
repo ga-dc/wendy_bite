@@ -15,7 +15,7 @@ body{
   color: white;
   border: 5px solid #777777;
   margin: 20px auto;
-  padding: 30px;
+  padding: 2em;
   width: 750px;
   height: 640px;
 }
@@ -29,6 +29,7 @@ h1{
 }
 nav{
   text-align:center;
+  padding: 1em;
 }
 a{
 
@@ -45,10 +46,10 @@ img{
 }
 p{
   line-height:1.5;
-  font-size: 18px;
+  font-size: 17px;
 
 }
 footer{
 text-align: center;
-padding-top:20px;
+padding-top: 2em;
 }
