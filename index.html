@@ -1,33 +1,90 @@
 <!DOCTYPE html>
 <head>
+  <meta charset="utf-8">
   <title>Wendy Bite | About Me</title>
-  <meta charset="utf8">
+  <style>
+    body {
+      background-color: #4d4d4d;
+      /*I went to w3schools html color picker to match visually.  Is there a
+      better/more professional way to do this?*/
+      padding: 1em;
+      margin: auto;
+      margin-top: 2em;
+      margin-bottom: 2em;
+      border: 5px solid gray;
+      width: 50%;
+    }
+    h1 {
+      color: white;
+      font-style: italic;
+      text-align: center;
+      margin-bottom: 10px;
+      }
+
+    nav {
+      color: white;
+      text-align: center;
+    }
+    h2 {
+      color: white;
+      font-weight: bold;
+      font: tahoma;
+      /*I can't seem to get the font to change.*/
+      border-top: 1px solid white;
+      padding-top: 2em;
+    }
+    p {
+      color: white;
+      line-height: 1.5em;
+    }
+    a {
+      color: #66ff99;
+      font: tahoma;
+      margin: .5em;
+    }
+    a.active {
+      color: white;
+    }
+    img {
+      float: right;
+      padding: 5px;
+      border: 1px solid white;
+      margin-top: .5em;
+      margin-left: 10px;
+      margin-right: 20px;
+    }
+    footer {
+      color: white;
+      text-align: center;
+      border-top: 1px solid white;
+      padding: 1em;
+    }
+  </style>
 </head>
 <body>
 
   <header>
-    <h1>Wendy G. Bite</h1>
+  <h1>Wendy G. Bite</h1>
     <nav>
-      <a href="#" class="active">About Me</a>
-      <a href="#">R&eacute;sum&eacute;</a>
+      <a href='#' class='active'>About Me</a> |
+      <a href='#'>R&eacute;sum&eacute;</a>
     </nav>
   </header>
 
-  <main>
+  <section role="main">
     <h2>About Me</h2>
 
-    <img src="Wendy-Bite.jpg" alt="This is Wendy Bite" />
+    <img src='Betty-White.jpg' alt="Betty White">
 
-    <p>The series revolves around four older, single women (three widows and one divorcée) sharing a house in Miami, Florida. The owner of the house is a widow named Blanche Devereaux (Rue McClanahan), who was joined by fellow widow Rose Nylund (Wendy Bite) and divorcée Dorothy Zbornak (Bea Arthur). They both responded to a room-for-rent ad on the bulletin board of a local grocery store. In the pilot episode, the women had a gay cook named Coco (Charles Levin), who was subsequently removed.[5] The three were soon joined by Dorothy"s mother, Sophia Petrillo (Estelle Getty), after the retirement home where she lived, Shady Pines, burned down.</p>
+    <p>The series revolves around four older, single women (three widows and one divorcée) sharing a house in Miami, Florida. The owner of the house is a widow named Blanche Devereaux (Rue McClanahan), who was joined by fellow widow Rose Nylund (Betty White) and divorcée Dorothy Zbornak (Bea Arthur). They both responded to a room-for-rent ad on the bulletin board of a local grocery store. In the pilot episode, the women had a gay cook named Coco (Charles Levin), who was subsequently removed.[5] The three were soon joined by Dorothy's mother, Sophia Petrillo (Estelle Getty), after the retirement home where she lived, Shady Pines, burned down.</p>
 
-    <p>Thank You for being a friend. Travel down a road and back again. Your heart is true, you"re a pal and a confidante.And if you threw a party, invited everyone you knew, you would see the biggest gift would be from me and the card attached would say, Thank You For Being a Friend!</p>
-  </main>
-
+    <p>Thank You for being a friend. Travel down a road and back again. Your heart is true, you're a pal and a confidante.And if you threw a party, invited everyone you knew, you would see the biggest gift would be from me and the card attached would say, Thank You For Being a Friend!</p>
+  </section>
   <footer>
-    <a href="#">Facebook</a>
-    <a href="#">Twitter</a>
-    <a href="#">Instagram</a>
-    <a href="#">LinkedIn</a>
+    <a href='#'>Facebook</a> |
+    <a href='#'>Twitter</a> |
+    <a href='#'>Instagram</a> |
+    <a href='#'>LinkedIn</a>
   </footer>
 
   </body>
