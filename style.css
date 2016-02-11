@@ -1,0 +1,88 @@
+
+/* I can't figure out how to add the | in the navigation bar and footer */
+
+body {
+	max-width: 630px;
+	background-color: #444444;
+	margin: auto;
+	padding: 30px;
+	border: solid gray 5px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+h1, nav {
+	text-align: center;
+}
+
+img {
+	border: solid white 1px;
+	padding: 5px;
+	float: right;
+	margin-left: 15px;
+}
+
+main {
+	margin-top: 30px;
+	width: 630px;
+	border-top: white solid 1px;
+	padding-top: 25px;
+	border-bottom: white solid 1px;
+	padding-bottom: 30px;
+}
+
+p {
+	line-height: 25px;
+	font-family: georgia;
+
+
+}
+
+h1, p, nav a {
+	color: white;
+}
+
+h1 {
+	font-family: georgia;
+	font-weight: normal;
+	font-style: italic;
+}
+
+
+
+h2, nav {
+	font-family: arial;
+	color: white;
+}
+
+nav a{
+	font-weight: bold;
+	padding-left: 15px;
+	color:#62cd9b;
+}
+
+nav a.active{
+	color: white;
+	text-decoration: none;
+	
+
+
+}
+
+footer {
+	padding-top: 50px;
+}
+
+footer a{
+	font-family: arial;
+	font-weight: bold;
+	color:#62cd9b;
+
+
+}
+
+footer {
+	word-spacing: 30px;
+color:#62cd9b;
+text-align: center;	
+}
