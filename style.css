@@ -1,0 +1,60 @@
+* {
+
+}
+
+
+body {
+  background-color: #444444;
+  color: #fff;
+  border: 5px solid #777777;
+  width:56%;
+  margin: 50px 17% 50px 17%;
+  font-family: arial;
+
+  padding:20px;
+}
+
+a {
+  font-weight: bold;
+  color: #66CD9B;
+}
+
+h1 {
+  font-style: italic;
+  font-family: Georgia;
+  font-weight: normal;
+}
+
+main {
+  border-color: #ccc;
+  border-style: solid;
+  border-width: 1px 0px 1px 0px;
+
+
+  padding: 20px
+}
+
+p {
+  font-family: Georgia;
+  line-height: 1.5;
+
+}
+
+img {
+  float: right;
+  padding: 5px;
+  background-color: black;
+  height: 300px;
+  width: 250px;
+
+}
+
+header {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  padding-top: 20px;
+}
