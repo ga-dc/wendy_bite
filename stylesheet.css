@@ -1,0 +1,43 @@
+body {
+font-family: fantasy;
+background: #303030;
+border: 2px solid white;
+padding: 2em;
+width: 40em;
+margin: 1em auto;
+color: white;
+}
+h1{
+font-family: fantasy;
+text-align: center;
+color: white;
+}
+p{
+font-family: fantasy;
+color: white;
+}
+img{
+float: right;
+border: 2px solid white;
+}
+a{
+font-family: fantasy;
+color: #00CC00;
+font-weight: bold;
+}
+a.active{
+  color: white;
+}
+main{
+border-color: white;
+border-width: thin;
+border-style: ridge;
+padding: 1em;
+}
+header{
+  text-align: center;
+}
+footer{
+  text-align: center;
+  padding-top: 10px;
+}
