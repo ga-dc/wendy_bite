@@ -9,11 +9,19 @@ Thank You for being a friend. Travel down a road and back again. Your heart is t
 RESUME PAGE
 
 Resume
+<<<<<<< HEAD
+
+I recently graduated from a Web Development course at General Assembly where I increased my typing speed from 10 words per minute on my type writer to 100 words per minute on my new MacBook Pro. They also taught me how to be an <strong>awesome</strong>Web Developer. During my spare time, I enjoy senior water aerobics, pickling, and spending time with my great grand children.
+
+Relevant Experience
+
+=======
 				
 I recently graduated from a Web Development course at General Assembly where I increased my typing speed from 10 words per minute on my type writer to 100 words per minute on my new MacBook Pro. They also taught me how to be an <strong>awesome</strong>Web Developer. During my spare time, I enjoy senior water aerobics, pickling, and spending time with my great grand children.
 		
 Relevant Experience
 		
+>>>>>>> 8ed4474a823882fb8f47c5bcc097952cc65d1f7b
 Web Developer GitHub 2013 - present
 Building a user friendly interface that is easy for beginner programmers to use and learn the benefits of git.
 
@@ -25,13 +33,24 @@ Created delightful christmas sweaters for young boys and girls. Extremly gifted 
 
 Senior Vice President The Golden Girls Appreciation Society 1985 - 1992
 Managed a team of three and over saw day to day operations at The Golden Girls Retirement Facility in Miami.
+<<<<<<< HEAD
+
+=======
 				
+>>>>>>> 8ed4474a823882fb8f47c5bcc097952cc65d1f7b
 Certified Mint Candy and Freshly Baked Cookies Distributor. 1960S
 Won multiple awards for my secret chocolate chip recipies. My grand children enjoy them too :)
 
 
 Education
+<<<<<<< HEAD
+
+General Assembly WDI — 2013
+Queens College B.A. 1923
+Brooklyn Etiquette School For Girls 1920(Honors)
+=======
 		
 General Assembly WDI — 2013
 Queens College B.A. 1923
 Brooklyn Etiquette School For Girls 1920(Honors)
+>>>>>>> 8ed4474a823882fb8f47c5bcc097952cc65d1f7b
