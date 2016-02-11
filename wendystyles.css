@@ -1,0 +1,54 @@
+*{
+  background:#444444;
+}
+
+h1 {
+  display: block;
+	font-family: Georgia, serif;
+	font-weight: normal;
+  font-style: italic;
+	color: ##444444;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    color: ##444444;
+}
+
+header, footer {
+  text-align: center;
+}
+p {
+  font-family: Georgia, serif;
+  color: #FFFFFF;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-style:
+  color: #FFFFFF;
+  background: #444444;
+  border: 3px solid #777777;
+  width: 40em;
+  margin: 2.5em auto;
+  padding: 2.5em;
+
+}
+
+img {
+  float: right;
+}
+
+a.active {
+  color: #FFFFFF;
+}
+
+a {
+    color: #3CDE9D;
+    font-weight: bold;
+}
+nav a, footer a {
+    font-size: 1rem;
+    display: inline-block;
+}
