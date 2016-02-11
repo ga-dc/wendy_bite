@@ -5,12 +5,12 @@ body {
 
 header {
   text-align: center;
-
 }
 
 h1 {
   font: Georgia;
   font-style: italic;
+  padding-top: 10px;
 }
 
 nav {
@@ -63,7 +63,7 @@ footer {
   margin-right:auto;
   margin-left: auto;
   margin-top: 50px;
-  background-color: #585858;
+  background-color: #404040 ;
   border: 1px double black;
   box-sizing: border-box;
 }
