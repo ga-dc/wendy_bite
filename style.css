@@ -1,0 +1,93 @@
+body{
+  background-color: #444444;
+  border: 5px solid #777777;
+  max-width: 560px;
+  padding: 0px 50px;
+  margin: 30px auto;
+}
+
+h1, h2, p {
+  color: white;
+}
+
+h1 {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-style: italic;
+  margin-top: 0px;
+}
+
+h2, h3 {
+  font-family: Arial, sans-serif;
+}
+
+h3 {
+  color: #999999;
+}
+
+p {
+  font-size: 1em;
+  font-family: Georgia, serif;
+}
+
+a {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  color: #00d59d;
+}
+
+nav>a:not(:nth-child(1)), footer>a:not(:nth-child(1)){
+  margin-left: 5px;
+  border-left: 1px solid #999999;
+  padding-left: 10px;
+}
+
+a.active {
+  text-decoration: none;
+  color: white;
+}
+
+header, footer{
+  text-align: center;
+}
+
+header {
+  border-bottom: 1px solid #999999;
+  padding-top: 55px;
+  padding-bottom: 35px;
+
+}
+
+footer{
+  margin-top: 20px;
+  border-top: 1px solid #999999;
+  padding-top: 35px;
+  padding-bottom: 55px;
+}
+
+img {
+  float: right;
+  border: 1px solid #999999;
+  padding: 5px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+ul {
+  color: white;
+}
+
+li.jobInfo {
+    margin-bottom: 20px;
+}
+
+li>div {
+  color: #999999;
+}
+
+.jobTitle, .company{
+  color: white;
+}
+
+.jobTitle {
+  font-weight: bold;
+}
