@@ -17,15 +17,19 @@ nav {
   padding-bottom: 10px;
 }
 
-li:before {
-content: " | ";
-}
-
 a {
   color: #33FF99;
   font-family: : Arial, sans-serif;
   font-weight: bold;
   text-decoration: none;
+}
+
+a:after {
+  content: " | ";
+}
+
+a:last-child:after {
+  content: " ";
 }
 
 a:visited {
@@ -42,6 +46,7 @@ main {
 
 h2 {
   font-family: Arial, sans-serif;
+  text-indent: 10px;
 }
 
 p {
@@ -65,11 +70,10 @@ footer {
 
 .box {
   width: 500px;
-  /*position: absolute;*/
   margin-right: auto;
   margin-left: auto;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
   border: 3px solid #E6E6E6;
   box-sizing: border-box;
 }
