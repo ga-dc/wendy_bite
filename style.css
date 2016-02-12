@@ -1,0 +1,105 @@
+html {
+    background-color: #444444;
+}
+
+body {
+    max-width: 740px;
+    margin: 30px auto;
+    border: 5px solid #777777;
+    padding: 50px;
+    color: white;
+}
+
+
+/* === header twerking only! === */
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-family: Georgia, serif;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+a {
+    color: #00d59d;
+    text-decoration: underline;
+}
+
+header li, footer li {
+    display: inline;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    padding-left: 0;
+}
+
+section ul {
+    padding-left: 40px;
+    list-style: square;
+}
+nav {
+    padding-bottom: 21px;
+    color: #999;
+}
+
+/* === mainly working the body or was it my body? === */
+
+.main, footer {
+    border-top: 1px solid #777;
+}
+section {
+        font-family: sans-serif;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: bolder;
+    letter-spacing: -1px;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #bbb;
+    letter-spacing: 2px;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+p {
+    font-family: Georgia, serif;
+    line-height: 1.5;
+    display: block;
+    font-size: 18px;
+    margin: 37px 0;
+}
+
+img {
+    border: 1px solid white;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    padding: 5px;
+    float: right;
+}
+
+footer {
+    text-align: center;
+    display: block;
+    margin-top: 37px;
+    padding-top: 21px;
+}
