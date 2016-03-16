@@ -1,0 +1,9 @@
+body {
+  background: rgb(90, 90, 90);
+  color: white;
+  font-family: sans-serif;
+  border: 5px solid rgb(150, 150, 150);
+  width: 50em;
+  margin: 2em auto;
+  padding: 2em;
+}
