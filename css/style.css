@@ -1,0 +1,80 @@
+body {
+  background: rgb(90, 90, 90);
+  color: white;
+  font-family: sans-serif;
+  border: 5px solid rgb(150, 150, 150);
+  width: 40em;
+  margin: 2em auto;
+  padding: 2em;
+}
+
+/* Header */
+
+header {
+  text-align: center;
+}
+
+h1 {
+  font-style: italic;
+  font-weight: normal;
+  font-family: Georgia, sans-serif;
+}
+
+/* Header links */
+
+a.active{
+  color: white;
+  text-decoration: none;
+}
+
+a {
+  font-weight: bold;
+  color: rgb(100, 231, 166);
+  border-right: 1.5px solid;
+  border-color: rgb(150, 150, 150);
+  padding-right: 10px;
+}
+
+nav a, footer a {
+  padding-left: 10px;
+}
+
+nav a:last-child {
+  border-right: none;
+}
+
+/* Main */
+
+p {
+  font-family: Georgia, sans-serif;
+  line-height: 1.5em;
+}
+
+main {
+  border-top: .5px solid;
+  border-bottom: .5px solid;
+  border-color: inherit;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+img {
+  border: .5px solid rgb(150, 150, 150);
+  border-radius: 25px;
+  padding: .5em;
+  position: relative;
+  float: right;
+  margin-left: 1.5em;
+}
+
+/* Footer */
+
+footer {
+  text-align: center;
+}
+
+footer a:last-child {
+  border-right: none;
+}
