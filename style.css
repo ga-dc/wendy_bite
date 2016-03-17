@@ -1,0 +1,79 @@
+
+body {
+  background-color: #444;
+  padding:2em;
+  margin:30px auto;
+  width:666px;
+  border:solid 5px;
+  border-color:#777;
+}
+
+a {
+  font-family:arial;
+  font-weight:bold;
+  color:mediumaquamarine;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+a:visited {
+  color:white;
+  text-decoration:none;
+}
+
+a:not(:last-of-type) {
+  border-right:1px solid #aaa;
+}
+
+header {
+  position:relative;
+  padding-top:10px;
+  padding-bottom:30px;
+  border-bottom:1px solid #aaa;
+}
+/* A font chooser site:
+http://www.creationfactor.net/web-font-chooser-and-css-code-generator/
+*/
+h1 {
+  text-align:center;
+  font-family:georgia;
+  font-style:italic;
+  padding-top:20px;
+  font-size:25pt;
+  font-weight:normal;
+  color: white;
+}
+
+nav {
+  font:helvetica;
+  font-weight:bold;
+  position:relative;
+  text-align:center;
+
+}
+main h2{
+  font-family:arial;
+
+  color:white;
+}
+
+main p {
+  color:white;
+  line-height: 1.5;
+}
+main {
+  color:white;
+  line-height:1.5;
+  border-bottom:1px solid #aaa;
+}
+img {
+  float:right;
+  border:1px solid lightgray;
+  padding:5px;
+  margin-left:1em;
+}
+footer {
+  text-align:center;
+  padding-top:30px;
+  padding-bottom:40px;
+}
