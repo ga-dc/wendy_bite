@@ -31,7 +31,7 @@ a {
 
 p {
   background-color: rgb(64, 64, 96);
-  border: 6px solid rgba(96,96,128);
+  border: 2px solid rgb(96,96,128);
   max-width: 768px;
 }
 
@@ -41,6 +41,7 @@ p {
   max-width: 45%;
 }
 footer {
+  border-bottom: 2px solid rgb(96,96,128);
   margin: 1em auto;
-  position:relative, bottom;
+  position: relative;
 }
