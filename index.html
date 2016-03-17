@@ -3,12 +3,99 @@
   <title>Wendy Bite | About Me</title>
   <meta charset="utf8">
 </head>
+<style>
+body {
+  background-color: #444444;
+  border: 5px solid #777777;
+  padding: 40px 30px;
+  width: 640px;
+  height: 700px;
+  margin: 30px auto;
+}
+
+h1 {
+  text-align: center;
+  font-style: italic;
+  color: white;
+}
+
+nav {
+  text-align: center;
+  color: #12b478;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+nav a {
+  padding: 0px 10px 0px 5px;
+  color: #12b478;
+  font-family: sans-serif;
+  font-weight: bold
+}
+
+h2 {
+  color: #ffffff;
+  font-family: sans-serif;
+  font-weight: bold
+}
+
+main {
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  margin: 25px 0px;
+  height: 540px;
+}
+
+img {
+  float: right;
+  padding: 5px;
+  border: 1px solid white;
+
+}
+
+p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 110%;
+  color: #ffffff;
+  letter-spacing: 0px;
+  line-height: 1.2em;
+  font-weight: normal;
+  font-style: normal;
+  text-transform: none;
+
+}
+.about{
+  border-right: 1px solid white;
+
+}
+.twitter {
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+}
+.instagram {
+  border-right: 1px solid white;
+}
+
+footer {
+  color: lightgreen;
+  text-align: center
+}
+
+footer a {
+  color: #12b478;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0px 10px 0px 5px;
+}
+</style>
 <body>
 
   <header>
     <h1>Wendy G. Bite</h1>
     <nav>
-      <a href="#" class="active">About Me</a>
+      <a class="about" href="#" class="active">About Me</a>
       <a href="#">R&eacute;sum&eacute;</a>
     </nav>
   </header>
@@ -25,8 +112,8 @@
 
   <footer>
     <a href="#">Facebook</a>
-    <a href="#">Twitter</a>
-    <a href="#">Instagram</a>
+    <a class="twitter" href="#">Twitter</a>
+    <a class="instagram" href="#">Instagram</a>
     <a href="#">LinkedIn</a>
   </footer>
 
