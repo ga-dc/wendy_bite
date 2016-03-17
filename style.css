@@ -1,0 +1,108 @@
+element.style {
+
+}
+
+.name {
+      font-family: Arial, sans-serif;
+      font-style: italic;
+      border-bottom-width: medium;
+      /* font-size: */
+}
+
+.class {
+
+}
+
+h2 {
+      text-align: left;
+}
+
+body {
+      text-align: center;
+      color: white;
+      background-color: rgb(81, 81, 81);
+      border: 5px solid grey;
+      margin: 2em auto;
+      padding: 2em;
+      width: 40em;
+      font-family: Arial, sans-serif;
+
+}
+
+main {
+      border-color: rgb(170, 170, 170);
+      border-width: 3px 0;
+      border-style: solid;
+      padding: 1em 0;
+}
+
+img {
+      border: 1px solid rgb(170, 170, 170);
+      padding: 6px;
+      margin-left: 1em;
+      float: right;
+
+}
+
+h1 {
+      font-weight: normal;
+      font-style: italic;
+      font-size: 18px;
+      font-family: times, serif;
+}
+
+h1,p {
+      font-family: Georgia, sans-serif;
+}
+
+a {
+      color: rgb(102, 205, 155);
+      font-weight: bold;
+}
+
+a.active {
+      text-decoration: none;
+      color: white;
+}
+
+header {
+      padding-bottom: 20px;
+      font-size: 2em;
+}
+
+/*header/*,h1 {
+      font-size: 24px;
+}*/
+
+footer {
+      padding-top: 20px;
+}
+
+nav, footer {
+      color: rgb(170, 170, 170);
+      font-size: 1em;
+}
+
+/*nav a {
+      text-align: left;
+}*/
+
+nav a, footer a {
+      font-size: 1rem;
+      padding: 0 10px;
+      display: inline-block;
+}
+
+header, footer {
+      text-align: center;
+}
+
+p {
+      text-align: left;
+      line-height: 1.5;
+}
+
+nav a:not(:last-of-type),
+footer a:not(:last-of-type){
+  border-right:1px solid #ccc;
+}
