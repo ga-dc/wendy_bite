@@ -34,7 +34,7 @@ p {
 
 }
 
-nav a:first-child {
+nav a:last-child {
   border:0;
 }
 
@@ -48,7 +48,7 @@ nav a:hover {
 a {
   color: #53c68c;
   font-weight: bold;
-  border-left: 1px solid #d3d3d3;
+  border-right: 1px solid #d3d3d3;
   padding: 0 8px 0 5px;
 }
 a.active {
@@ -78,14 +78,14 @@ h2 {
 footer {
   text-align: center;
 }
-footer a:last-child {
-  border: 0;
-}
+
 footer a{
   color: #53c68c;
   font-weight: bold;
-  border-right: 1px solid #d3d3d3;
   padding: 0 8px 0 5px;
+}
+footer a:last-child {
+  border-right: none;
 }
 footer a:hover {
   color: white;
