@@ -1,0 +1,44 @@
+<head>
+main{
+    height: 750px;
+    margin: 2px;
+    padding: 2px;
+    width: 1000px;
+}
+body{
+  background: grey;
+}
+h1, p {
+    Georgia, serif;
+    font-size: 24px;
+  }
+h1 {
+    color: white;
+    text-align: center;
+}
+h1 {
+  display: block;
+  font-size: 2em;
+}
+
+h2 {
+    color: white;
+    text-align:left;
+}
+p {
+  color: white
+}
+p {
+  text-align: center;
+}
+img {
+  float: right;
+}
+
+footer{
+  text-align: center;
+}
+
+
+
+</head>
