@@ -28,6 +28,12 @@ h2 {
   padding-top: 5px;
   text-align: left;
 }
+h3 {
+
+}
+h4 {
+  
+}
 nav {
   font-size: 16px;
   display: inline-block;
@@ -68,4 +74,7 @@ footer a {
       border-right: 1px solid #ccc;
   color: #4775d1;
   text-decoration: none;
+}
+.dates {
+  font-weight: normal;
 }
