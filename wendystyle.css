@@ -83,11 +83,14 @@ ul {
   display: flex;
   flex-direction: column;
   list-style-type: square;
+  padding: 0px;
+  padding-left: 50px;
 }
 
 li {
   color: white;
-  margin: 0px auto 2px auto;
+  padding: 0px;
+  text-align: left;
 }
 
 h3 {
@@ -96,5 +99,11 @@ h3 {
 }
 
 p {
+  padding: 0px;
   color: #7b7b7b;
+}
+
+p.ab {
+  padding: 0;
+  color: white;
 }
