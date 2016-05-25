@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Serif+Caption);
+
+body {
+  border: solid 5px #777777;
+  background-color: #444444;
+  color: #FFFFFF;
+  width:700px;
+  margin: 30px auto;
+  padding:30px;
+  box-sizing:border-box;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-family: 'PT Serif Caption', serif;
+  text-align: center;
+  font-weight: normal;
+  font-style: italic;
+}
+
+img {
+  border: 1px solid #FFFFFF;
+  padding: 5px;
+  float:right;
+}
+
+nav {
+  text-align: center;
+  border-bottom: 1px solid #FFFFFF;
+    padding: 5px;
+}
+
+nav a {
+  flex-grow: 1;
+  line-height: 50px;
+  list-style-type: none;
+  background-color: fc0;
+  transition: color 0.2s;
+}
+
+
+.resumeTitle {
+  text-transform: uppercase;
+  color:#BBBBBB;
+}
