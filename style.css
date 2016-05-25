@@ -49,17 +49,13 @@ nav{
 main{
   border-bottom: 1px solid #999999;
   border-top: 1px solid #999999;
-  padding: 25px;
-  margin: 20px;
 }
 
 body{
+  box-sizing: border-box;
   padding: 30px;
   border: 5px solid #777777;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin: 25px auto;
   width: 80%;
 }
 
