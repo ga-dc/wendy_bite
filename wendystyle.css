@@ -1,14 +1,19 @@
 body {
   background-color: #444444;
-  outline: 3px solid white;
+  outline: 3px solid #7b7b7b;
   margin: 20px;
+  margin: 0 auto;
+  max-width: 700px;
 }
 
 header {
   text-align: center;
+  border-bottom: 5px solid #7b7b7b;
+  padding: 20px;
 }
 
 nav a {
+  font-weight: bold;
   color: aquamarine;
 }
 
@@ -21,19 +26,28 @@ p, h2, h1 {
 }
 
 img {
+  margin-right: 10px;
+  padding: 5px;
+  border: 1px solid #7b7b7b;
   float: right;
 }
 
-p {
-  width: 50%;
+main {
   text-align: left;
+  margin-left: 20px;
+}
+
+p {
+
 }
 
 footer {
-  border-top:
+  border-top: 5px solid #7b7b7b;
   text-align: center;
+  padding: 20px;
 }
 
 footer a {
+  font-weight: bold;
   color: aquamarine;
 }
