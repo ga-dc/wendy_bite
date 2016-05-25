@@ -1,8 +1,8 @@
 
 html {
-  background-color: #DDDDDDD;
-  padding-left: 120px;
-  padding-right: 120px;
+  background-color: #DDDDDD;
+  padding-left: 200px;
+  padding-right: 200px;
   padding-top: 20px;
   padding-bottom: 20px;
   color: white;
@@ -10,29 +10,35 @@ html {
 
 body {
   background-color: #444444;
-  border: 2px;
+  border: 5px;
   border-spacing: 20px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
   border-style: ridge;
+  border-color: gray;
 }
 
 main {
-  border-top: 10px;
-  border-bottom: 10px;
+  border-top-style: groove;
+  border-bottom-style: groove;
+  border-color: white;
   color: white;
+
 }
 
 img {
-  margin: auto;
-  width: 60%;
-  border: 3px;
-  padding: 6px;
+  border-style: solid;
+  border-color: gray;
+  border-width: medium;
+  float:right;    //* looked this up in solution *//
+  padding: 2px;
+  border-width:20px;
+  border-color: #444444
 }
-
 
 header {
   text-align: center;
+  padding: 15px;
 }
 
 h1 {
@@ -40,14 +46,28 @@ h1 {
   text-align: center;
 }
 
-nav,h2{
+a.active{
+  text-decoration:none;
+  color:#fff;
+  color: green;
+  display: inline-block;
+}
+
+nav {
   text-align:center;
+  font-family:"Comic Sans MS";
+  color: green;
+  display: inline-block;
+}
+
+h2 {
+  text-align:left;
   font-family:"Comic Sans MS";
 }
 
 footer {
   flex: auto;
-  color: white
+  color: green;
   text-align: center;
-
+  padding: 15px;
 }
