@@ -1,0 +1,106 @@
+/* Web fonts */
+@import url(https://fonts.googleapis.com/css?family=PT+Serif);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900,400italic,300);
+
+/* Reset CSS */
+*{
+  margin:0;
+  padding:0;
+  border:0;
+  font-size:inherit;
+  font-weight:inherit;
+  font-family:inherit;
+  font-style:inherit;
+  text-decoration:inherit;
+  line-height:inherit;
+  color:inherit;
+  box-sizing: border-box;
+
+  /* For debugging use */
+  /*border: 1px solid red; */
+}
+
+/* Typography */
+html, body{
+  font-family: "PT Serif", 'Times New Roman', serif;
+  font-size: 16px;
+  line-height: 30px;
+  color: #444;
+  text-shadow: 1px 1px 0px #fff;
+}
+body{
+  margin: 1.5rem;
+  background-color: #f6e3ef;
+  line-height: 1;
+}
+.wrap {
+  max-width: 38rem;
+  padding-left:  1.5rem;
+  padding-right: 1.5rem;
+  margin-left:  auto;
+  margin-right: auto;
+  background-color: white;
+}
+h1, h2, h3, h4 {
+  display: block;
+  font-family: 'Lato', "Helvetica Neue", Arial, sans-serif;
+}
+h1{
+  font-size: 4rem;
+  font-weight: bold;
+}
+h2 {
+  display: block;
+  font-size: 2.5rem;
+}
+p {
+  color: #666;
+  line-height: 1.7;
+  margin-top: 2rem;
+}
+
+/* Hero / navigation */
+
+header {
+  display: block;
+  padding-top: 2rem;
+}
+nav {
+  width:100%;
+  display: flex;
+  border-bottom: 4px solid #444;
+  margin-top: 2rem;
+}
+nav a {
+  text-align: center;
+  list-style-type: none;
+  flex-grow: 1;
+  padding: 1rem;
+}
+nav a:hover {
+  color: #c24092;
+}
+
+/* Content */
+main {
+  margin-top: 2rem;
+}
+img.head-shot {
+  border-radius: 50%;
+  margin-top: 2rem;
+}
+
+
+/* Footer */
+
+footer {
+  display: flex;
+  padding: 2rem;
+}
+footer a {
+  flex-grow: 1;
+}
+
+/*@media only screen and (min-width : 768px) {
+
+}*/
