@@ -48,8 +48,6 @@ a {
 a.active {
     text-decoration: none;
     color: white;
-    padding-right: 7px;
-    border-right: 1px solid rgb(134,134,134);
 }
 
 main {
@@ -75,6 +73,13 @@ main img {
     margin-left: 30px;
 }
 
+main h3 {
+    margin-top: 40px;
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: rgb(186,186,186);
+}
+
 p {
     font-size: 18px;
     font-family: Georgia;
@@ -86,7 +91,30 @@ footer {
     margin-bottom: 30px;
 }
 
-footer a:not(#noborder) {
+a:not(.noborder) {
   padding-right: 5px;
   border-right: 2px solid rgb(134,134,134);
+}
+
+strong {
+  font-weight: bold;
+}
+
+ul {
+    margin-left: 50px;
+    list-style-type: square;
+}
+
+ul li{
+  margin-bottom: 5px;
+}
+
+ul p {
+    color: rgb(186,186,186);
+    font-family: Georgia;
+}
+
+span.small {
+  font-size: 12px;
+  color: rgb(186,186,186);
 }
