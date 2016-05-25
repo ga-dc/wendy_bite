@@ -52,6 +52,8 @@ nav {
 h2 {
   font-size: 2em;
   margin-bottom: 20px;
+  text-decoration: bold;
+  font-family: sans-serif;
 }
 
 nav a.active:after {
@@ -71,7 +73,7 @@ img {
 }
 
 main {
-  font-family: sans-serif;
+  font-family: georgia;
   border-bottom: 1px solid #777777;
   padding-bottom: 30px;
 }
