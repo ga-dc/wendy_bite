@@ -1,28 +1,28 @@
-html{}
+body{background-color: #444444; color: #fff; font-family: Arial, sans-serif;}
 
-body{
+  #container{background-color: inherit; color: inherit; border:5px solid #777777; width:640px; margin: 30px auto; padding: 30px 30px;}
 
-  background-color: #444444;
-  color:#eeeeee;
+    header{padding-bottom:20px;}
+    header, footer{text-align:center;}
 
-}
+      h1{font-weight:normal; font-style:italic;}
+      h1,p{font-family:Georgia, serif;}
+      p{line-height:1.6;}
+      img{border: 1px solid #ffffff; padding:5px; margin-left:20px; float:right;}
 
-header{}
+      a{color:#00d59d; font-weight:bold;}
+      a.active{text-decoration:none; color:#ffffff;}
 
-  header h1{}
+      main{border-top:1px solid #cccccc; border-bottom:1px solid #cccccc; padding:30px 0;}
 
-  header nav{}
+      footer{padding-top:20px;}
+      nav,footer{color:#cccccc;}
+      nav a,footer a{font-size:16px; padding:0px 10px; display:inline-block;}
+      nav a,footer a{border-right:1px solid #cccccc;}
 
-  header nav a{}
+      .last-link{border: none;}
 
-main{}
 
-  main h2{}
+      /********* Resume Styles *******/
 
-  main img{}
-
-  main p{}
-
-footer{}
-
-  footer a{}
+      
