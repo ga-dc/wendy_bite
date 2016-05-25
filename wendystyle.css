@@ -1,0 +1,39 @@
+body {
+  background-color: #444444;
+  outline: 3px solid white;
+  margin: 20px;
+}
+
+header {
+  text-align: center;
+}
+
+nav a {
+  color: aquamarine;
+}
+
+nav a:active {
+  color: white;
+}
+
+p, h2, h1 {
+  color: white;
+}
+
+img {
+  float: right;
+}
+
+p {
+  width: 50%;
+  text-align: left;
+}
+
+footer {
+  border-top:
+  text-align: center;
+}
+
+footer a {
+  color: aquamarine;
+}
