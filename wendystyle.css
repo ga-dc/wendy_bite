@@ -3,13 +3,18 @@ body {
   outline: 3px solid #7b7b7b;
   margin: 20px;
   margin: 0 auto;
+  padding: 0px 50px;
   max-width: 700px;
 }
 
-header {
+header, footer {
   text-align: center;
-  border-bottom: 5px solid #7b7b7b;
+  border-bottom: 2px solid #7b7b7b;
   padding: 20px;
+}
+
+header {
+  font-family: sans-serif;
 }
 
 nav a {
@@ -17,7 +22,17 @@ nav a {
   color: aquamarine;
 }
 
-nav a:active {
+nav a.active {
+  text-decoration: none;
+}
+
+nav a.active:after {
+  color: #7b7b7b;
+  text-decoration: none;
+  content: " |"
+}
+
+nav a.active {
   color: white;
 }
 
@@ -25,8 +40,13 @@ p, h2, h1 {
   color: white;
 }
 
+h1, h2 {
+  font-family: georgia, sans-serif;
+}
+
 img {
-  margin-right: 10px;
+  margin-right: 40px;
+  margin-left: 40px;
   padding: 5px;
   border: 1px solid #7b7b7b;
   float: right;
@@ -37,12 +57,8 @@ main {
   margin-left: 20px;
 }
 
-p {
-
-}
-
 footer {
-  border-top: 5px solid #7b7b7b;
+  border-top: 2px solid #7b7b7b;
   text-align: center;
   padding: 20px;
 }
@@ -50,4 +66,10 @@ footer {
 footer a {
   font-weight: bold;
   color: aquamarine;
+}
+
+footer a:not(#last_link):after  {
+  color: #7b7b7b;
+  text-decoration: none;
+  content: " |";
 }
