@@ -1,0 +1,53 @@
+
+html {
+  background-color: #DDDDDDD;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+body {
+  background-color: #444444;
+  border: 2px;
+  border-spacing: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-style: ridge;
+}
+
+main {
+  border-top: 10px;
+  border-bottom: 10px;
+  color: white;
+}
+
+img {
+  margin: auto;
+  width: 60%;
+  border: 3px;
+  padding: 6px;
+}
+
+
+header {
+  text-align: center;
+}
+
+h1 {
+  font-style: italic;
+  text-align: center;
+}
+
+nav,h2{
+  text-align:center;
+  font-family:"Comic Sans MS";
+}
+
+footer {
+  flex: auto;
+  color: white
+  text-align: center;
+
+}
