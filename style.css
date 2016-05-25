@@ -11,15 +11,14 @@
 }
 
 .container {
-  margin: 10px;
+  padding: 50px;
 
 }
 
 body {
   padding: 20px;
-  width: 720px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 650px;
+  margin: 20px auto 20px auto;
   background-color: #444444;
   color: white;
   border: 5px solid #777777;
@@ -34,7 +33,7 @@ h1 {
   font-size: 3em;
   font-family: georgia;
   font-style: italic;
-  margin: 20px;
+  margin: 0 0 20px 0;
 }
 
 header {
@@ -47,6 +46,7 @@ header {
 nav {
   font-size: 1.2em;
   font-family: sans-serif;
+  color: #6ACD9C
 }
 
 h2 {
@@ -54,11 +54,42 @@ h2 {
   margin-bottom: 20px;
 }
 
+nav a.active:after {
+  color: #777777;
+  content: " |"
+}
+
+.active {
+  color: white;
+}
+
 img {
   float: right;
+  padding: 2px;
+  border: 1px solid #777777;
+  margin: 0px 0px 10px 10px;
 }
 
 main {
   font-family: sans-serif;
   border-bottom: 1px solid #777777;
+  padding-bottom: 30px;
+}
+
+footer {
+  text-align: center;
+  font-size: 1.2em;
+  font-family: sans-serif;
+  color: #6ACD9C;
+  margin-top: 20px;
+}
+
+footer a {
+  border-right: 1px solid #777777;
+  padding-right: 5px;
+  text-decoration: underline;
+}
+
+#last {
+  border-right: none;
 }
