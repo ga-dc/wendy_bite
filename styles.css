@@ -1,19 +1,31 @@
 head, body {
   background: #444444;
   font-family: Arial;
+  border: 5px solid #777777;
   color: white
+
 }
 h1 {
   font-family: georgia;
   font-weight: normal;
   font-style: italic;
 }
+header {
+  text-align: center;
+}
+nav {
+  color:#00D59D
+}
 img{
   float:right;
-  border: 1px solid;
+  border: 2px solid #777777;
   padding:4px;
 }
+footer {
+  text-align: center;
 
+
+}
 
 
 
