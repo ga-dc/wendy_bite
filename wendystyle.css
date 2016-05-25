@@ -5,9 +5,10 @@
 body {
   background-color: #444444;
   outline: 3px solid #7b7b7b;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   padding: 0px 30px;
-  max-width: 700px;
+  width: 80%;
 }
 
 header, footer {
@@ -20,6 +21,7 @@ header {
 }
 
 nav a {
+  padding: 0px;
   font-weight: bold;
   color: aquamarine;
 }
@@ -38,7 +40,7 @@ nav a.active {
   color: white;
 }
 
-p, h2, h1 {
+h2, h1 {
   color: white;
 }
 
@@ -67,6 +69,7 @@ footer {
 
 footer a {
   font-weight: bold;
+  padding: 0px;
   color: aquamarine;
 }
 
@@ -74,4 +77,24 @@ footer a:not(#last_link):after  {
   color: #7b7b7b;
   text-decoration: none;
   content: " |";
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: square;
+}
+
+li {
+  color: white;
+  margin: 0px auto 2px auto;
+}
+
+h3 {
+  color: #7b7b7b;
+  font-size: 20px;
+}
+
+p {
+  color: #7b7b7b;
 }
