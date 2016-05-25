@@ -1,5 +1,26 @@
 head, body {
   background: #444444;
   font-family: Arial;
+  color: white
+}
+h1 {
+  font-family: georgia;
+  font-weight: normal;
+  font-style: italic;
+}
+img{
+  float:right;
+  border: 1px solid;
+  padding:4px;
+}
 
+
+
+
+
+
+
+
+footer {
+  color: #00D59D
 }
