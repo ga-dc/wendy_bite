@@ -2,7 +2,8 @@ head, body {
   background: #444444;
   font-family: Arial;
   border: 5px solid #777777;
-  color: white
+  color: white;
+  padding: 20px;
 
 }
 h1 {
@@ -23,16 +24,16 @@ img{
 }
 footer {
   text-align: center;
-
-
+}
+main {
+  font-family: times;
+  font-weight: normal;
 }
 
 
-
-
-
-
-
 footer {
-  color: #00D59D
+  color: #00D59D;
+  font-weight: bold;
+  font-size: 14px;
+
 }
