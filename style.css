@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: inherit;
+  font-weight: inherit;
+  font-family: inherit;
+  text-decoration: inherit;
+  line-height: inherit;
+  color: inherit;
+}
+
+.container {
+  padding: 50px;
+
+}
+
+body {
+  padding: 20px;
+  width: 650px;
+  margin: 20px auto 20px auto;
+  background-color: #444444;
+  color: white;
+  border: 5px solid #777777;
+}
+
+hr {
+
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+  font-family: georgia;
+  font-style: italic;
+  margin: 0 0 20px 0;
+}
+
+header {
+  border-bottom: 1px solid #777777;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+nav {
+  font-size: 1.2em;
+  font-family: sans-serif;
+  color: #6ACD9C
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-decoration: bold;
+  font-family: sans-serif;
+}
+
+nav a.active:after {
+  color: #777777;
+  content: " |"
+}
+
+.active {
+  color: white;
+}
+
+img {
+  float: right;
+  padding: 2px;
+  border: 1px solid #777777;
+  margin: 0px 0px 10px 10px;
+}
+
+main {
+  font-family: georgia;
+  border-bottom: 1px solid #777777;
+  padding-bottom: 30px;
+}
+
+footer {
+  text-align: center;
+  font-size: 1.2em;
+  font-family: sans-serif;
+  color: #6ACD9C;
+  margin-top: 20px;
+}
+
+footer a {
+  border-right: 1px solid #777777;
+  padding-right: 5px;
+  text-decoration: underline;
+}
+
+#last {
+  border-right: none;
+}
