@@ -27,6 +27,7 @@ body {
 header h1 {
     margin-top: 60px;
     margin-bottom: 40px;
+    font-family: Georgia;
     font-size: 42px;
     font-style: italic;
 }
@@ -38,25 +39,54 @@ header nav {
     margin-bottom: 40px;
 }
 
+a {
+    text-decoration: underline;
+    color: rgb(102,206,156);
+    font-weight: bold;
+}
+
+a.active {
+    text-decoration: none;
+    color: white;
+    padding-right: 7px;
+    border-right: 1px solid rgb(134,134,134);
+}
+
 main {
     text-align: left;
     margin-left: 40px;
     margin-right: 40px;
+    border-top: 1px solid rgb(134,134,134);
+    border-bottom: 1px solid rgb(134,134,134);
+    padding-bottom: 30px;
 }
 
 main h2 {
-  margin-top: 40px;
-  font-size: 34px;
-  font-weight: bold;
-  margin-bottom: 40px;
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 40px;
 }
 
 main img {
-  float: right;
-  border: 1px solid rgb(107,107,107);
-  padding: 5px;
+    float: right;
+    border: 1px solid rgb(107,107,107);
+    padding: 5px;
+    margin-left: 30px;
 }
 
 p {
-  font-size: 20px;
+    font-size: 18px;
+    font-family: Georgia;
+    line-height: 30px;
+}
+
+footer {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+footer a:not(#noborder) {
+  padding-right: 5px;
+  border-right: 2px solid rgb(134,134,134);
 }
