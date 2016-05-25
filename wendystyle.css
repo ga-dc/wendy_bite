@@ -1,16 +1,18 @@
+*{
+  padding: 10px;
+}
+
 body {
   background-color: #444444;
   outline: 3px solid #7b7b7b;
-  margin: 20px;
   margin: 0 auto;
-  padding: 0px 50px;
+  padding: 0px 30px;
   max-width: 700px;
 }
 
 header, footer {
   text-align: center;
   border-bottom: 2px solid #7b7b7b;
-  padding: 20px;
 }
 
 header {
