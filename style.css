@@ -39,11 +39,43 @@ p{
   text-decoration: none;
   font-weight: bold;
 }
+.active2{
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a.active2:before{
+  color: #777777;
+  content: " | "
+}
 a{
   color: #6ACC9C;
   font-weight: bold;
   display: inline-block;
+}
+.resume{
+  font-size: 12px;
+  line-height: 18px;
+}
+h3{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #777777;
+    text-transform: uppercase;
+    padding: 10px 0px 10px 0px;
+}
+li{
+    padding: 10px 0px 10px 0px;
+    list-style-type: square;
+}
+li.titlee{
+  font-weight: bold;
+}
 
+education{
+  padding: 0px;
 }
 footer{
   border-top: 2px solid #777777;
