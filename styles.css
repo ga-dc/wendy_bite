@@ -75,7 +75,7 @@ img {
 
 nav {
   text-align: center;
-  line-height: 40px;
+  line-height: 20px;
 }
 
 a {
@@ -84,7 +84,7 @@ a {
   color: #00d59d;
   font-weight: bold;
   text-decoration: underline;
-  display: in-line block;
+  display: inline-block;
   border-right: 1px solid #8d8d8d;
   padding: 0 5px;
 }
