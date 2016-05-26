@@ -14,18 +14,31 @@ body {
   margin:0;
   padding:0;
   height:100%;
+  border: 5px solid #666666;
 
 
 }
 #container {
   width: 960px;
-  background-color: grey;
-  margin: 0 auto;
+  background-color: #333333;
+  margin: 2em auto;
   text-align: center;
-  border: 5px solid #666666;
+  color:white;
+  text-shadow: 1px 1px #666666;
 
 }
 
 h1 {
+  font-family: cursive;
+  font-size: 50px;
 
+}
+main {
+  padding: 2em 0;
+  border-width: 1px 0;
+  border-color: #666666;
+}
+img {
+  padding: 5px;
+  float: right;
 }
