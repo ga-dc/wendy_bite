@@ -25,4 +25,10 @@ body{background-color: #444444; color: #fff; font-family: Arial, sans-serif;}
 
       /********* Resume Styles *******/
 
-      
+
+            .ls-square{list-style-type: square;}
+            .lt-gray{color:#cccccc;}
+            .exp-position{font-weight:bold; font-size: 18px;}
+            .exp-company{font-weight: normal;}
+            .exp-time{font-size:12px; color: #cccccc;}
+            .exp-desc{color: #cccccc; margin-top: 5px;}
