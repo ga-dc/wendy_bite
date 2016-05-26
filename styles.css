@@ -48,7 +48,7 @@ nav {
 }
 header {
   padding-bottom: 30px;
-  border-bottom: 2px solid white;
+  border-bottom: 1.5px solid white;
 }
 a {
   color: green;
@@ -56,10 +56,15 @@ a {
 .active {
   color: white;
   padding-right: 5px;
-  border-right: 2px solid white;
+  border-right: 1.5px solid white;
+}
+main {
+  padding-bottom: 30px;
 }
 footer {
   text-align: center;
+  padding-top: 20px;
+  border-top: 1.5px solid white;
 }
 footer a{
   padding-right: 10px;
