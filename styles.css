@@ -57,17 +57,43 @@ p{
 }
 
 a {
-     text-decoration: none ;
+    color: #FFFFFF;
   }
 
-a:hover {
+a:visited {
   color: #00D59D;
+  text-decoration: underline;
 }
 
 
 .resumeTitle {
   text-transform: uppercase;
   color:#BBBBBB;
+  font-family: sans-serif;
+}
+
+li {
+  line-height: 25px;
+  list-style-type: square;
+}
+
+li span {
+  display: block;
+  font-weight: bold;
+}
+
+li sub {
+  color:#BBBBBB;
+  font-weight: normal;
+  vertical-align: baseline;
+}
+
+#experience li{
+  margin: 1em 0;
+}
+
+#education {
+  font-weight: bold;
 }
 
 footer {
