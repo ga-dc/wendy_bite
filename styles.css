@@ -21,14 +21,14 @@ h1{
 body{
   color: white;
   border:5px solid rgb(68,68,68);
-  width:30cm;
+  width:800px;
   font-family: Arial, sans-serif;
   font-size: 18px;
   line-height:normal;
   text-align: left;
   line-height: 30px;
-  margin:2cm auto;
-  padding:2cm;
+  margin:20px auto;
+  padding: 20px 20px 20px 20px;
 }
 img{
   border:3px solid white;
@@ -36,11 +36,35 @@ img{
   margin-left:1cm;
   float: right
 }
+h2{
+  padding-top: 30px;
+  font-size: 25px;
+  font-weight: bold;
+}
 nav {
    line-height: 30px;
    text-align: center;
    display: block;
 }
-green{
+header {
+  padding-bottom: 30px;
+  border-bottom: 2px solid white;
+}
+a {
   color: green;
+}
+.active {
+  color: white;
+  padding-right: 5px;
+  border-right: 2px solid white;
+}
+footer {
+  text-align: center;
+}
+footer a{
+  padding-right: 10px;
+  text-decoration: underline;
+}
+p {
+  padding-top: 20px;
 }
