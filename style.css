@@ -20,7 +20,8 @@ nav{
   padding-bottom: 30px;
 }
 body{
-  width: 550px;
+  margin-top: 30px;
+  width: 600px;
   font-family: Georgia;
   outline: #777777 solid thick;
   background-color: #444444;
@@ -31,7 +32,7 @@ body{
 
 }
 p{
-  line-height: 20px;
+  line-height: 25px;
 }
 .active{
   color: #FFFFFF;
@@ -58,16 +59,21 @@ nav a.active:after{
 }
 footer a{
     border-right: 1px solid #777777;
-    padding: 10px;
+    padding: 5px;
+    /*color: #777777;*/
+    /*content: " |"*/
 }
 footer a:last-child{
     border-right: none;
     line-height: 2px;
   }
 img{
+  width: 230px;
+  height: auto;
   float:right;
   outline: #777777 solid thin;
   padding: 5px;
   border:  #777777 solid thin;
-  margin: 10px;
+  margin: 0px 10px 10px 20px;
+
 }
