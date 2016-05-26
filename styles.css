@@ -1,0 +1,198 @@
+/* Web fonts */
+
+@import url(https://fonts.googleapis.com/css?family=PT+Serif);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900,400italic,300);
+
+
+/* Reset CSS */
+
+*{
+  margin:0;
+  padding:0;
+  border:0;
+  font-size:inherit;
+  font-weight:inherit;
+  font-family:inherit;
+  font-style:inherit;
+  text-decoration:inherit;
+  line-height:inherit;
+  color:inherit;
+  box-sizing: border-box;
+
+  /* For debugging use */
+  /*border: 1px solid red;*/
+}
+
+
+/* Typography */
+
+html, body{
+  font-family: "PT Serif", 'Times New Roman', serif;
+  font-size: 16px;
+  line-height: 30px;
+  color: white;
+}
+body{
+  background-color: #444444;
+  line-height: 1;
+}
+.wrap {
+  max-width: 740px;
+  padding:  1.5rem 3rem;
+  margin-left:  auto;
+  margin-right: auto;
+  outline: 5px solid #777;
+}
+h1, h2, h3, h4 {
+  display: block;
+  font-family: 'Lato', "Helvetica Neue", Arial, sans-serif;
+}
+h1{
+  font-family: "PT Serif", 'Times New Roman', serif;
+  font-size: 2.3rem;
+  font-style: italic;
+}
+h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+h3 {
+  font-size: 1.2rem;
+  margin-top: 2.5rem;
+  text-transform: uppercase;
+  color: #bbb;
+  font-weight: bold;
+}
+h4 {
+  font-size: 1.1rem;
+  color: white;
+  font-weight: bold;
+}
+p {
+  line-height: 1.7;
+  margin-top: 2rem;
+  font-size: 1.1rem;
+  color: #ddd;
+}
+ul {
+    margin-left: 20px;
+}
+li {
+  margin-top: 1.5rem;
+}
+
+
+/* Hero / navigation */
+
+header {
+  display: block;
+  padding-top: 2rem;
+  text-align: center;
+}
+nav {
+  width:100%;
+  display: block;;
+  border-bottom: 1px solid #777;
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+nav a {
+  font-family: 'Lato', "Helvetica Neue", Arial, sans-serif;
+  text-align: center;
+  list-style-type: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #00D59D;
+  text-decoration: underline;
+  transition: all .4s ease;
+}
+nav a:first-child:after {
+  content: "|";
+  padding: 0 12px;
+}
+nav a:hover {
+  color: #008905;
+}
+nav a.active {
+  color: white;
+  text-decoration: none;
+  cursor: default;
+}
+
+
+/* Content */
+
+main {
+  margin-top: 2rem;
+}
+img.head-shot {
+  outline: 1px solid white;
+  padding: 5px;
+  margin-left: 1.5rem;
+  float: right;
+}
+
+.experience {
+  line-height: 1.7;
+}
+.experience h4 .company {
+  font-weight: normal;
+  font-size: 1rem;
+}
+.experience h4 .years {
+  font-weight: normal;
+  font-size: .9rem;
+  color: #bbb;
+}
+.experience p {
+  margin-top: 0;
+  color: #bbb;
+  font-size: 1.1rem;
+}
+
+.education {
+  line-height: 1.7;
+  font-family: 'Lato', "Helvetica Neue", Arial, sans-serif;
+}
+.education ul {
+  margin-top: 1rem;
+}
+.education li {
+  margin: 0;
+}
+.education li strong {
+  font-weight: bold;
+}
+
+
+/* Footer */
+
+footer {
+  display: flex;
+  margin-top: 2rem;
+  padding: 2rem 0;
+  border-top: 1px solid #777;
+}
+footer a {
+  flex-grow: 1;
+  color: #00D59D;
+  font-size: 1.1rem;
+  text-decoration: underline;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Lato', "Helvetica Neue", Arial, sans-serif;
+  transition: all .4s ease;
+}
+footer a:hover {
+  color: #008905;
+}
+
+
+/* Control the margins of larger devices */
+
+@media only screen and (min-width : 768px) {
+  body {
+    margin: 1.5rem;
+  }
+}
