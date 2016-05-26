@@ -49,7 +49,7 @@ h1 {
 
 h2 {
   font-family: arial;
-  font-size: 35px;
+  font-size: 32px;
   line-height:50px;
   margin: 0 0 25px 0;
   font-weight: bold;
@@ -57,8 +57,8 @@ h2 {
 
 h3 {
   font-family: arial, sans-serif;
-  letter-spacing: 4px;
-  font-size: 20px;
+  letter-spacing: 2px;
+  font-size: 19px;
   line-height: 80px;
   text-transform: uppercase;
   font-weight:bold;
@@ -105,6 +105,7 @@ li {
   font-family: georgia;
   font-size: 18px;
   line-height:28px;
+  color: #bbbbbb;
 }
 
 ul {
@@ -119,6 +120,7 @@ job {
   font-weight:bold;
 }
 
+
 company {
   font-family: arial, sans-serif;
   font-size: 18px;
@@ -128,6 +130,7 @@ company {
 .education li {
   font-family: arial, sans-serif;
 }
+
 
 years {
   font-size: 14px;
