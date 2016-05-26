@@ -1,0 +1,48 @@
+head, body {
+  background: #444444;
+  font-family: Arial;
+  border: 5px solid #777777;
+  color: white;
+  padding: 30px;
+
+}
+h1 {
+  font-family: georgia;
+  font-weight: normal;
+  font-style: italic;
+}
+header {
+  text-align: center;
+}
+nav {
+  color:#00D59D
+}
+img{
+  float:right;
+  border: 2px solid #777777;
+  padding:4px;
+  padding-right: 20px;
+}
+h2 {
+  padding-left: 20px;
+  font-family: arial;
+}
+  footer {
+  text-align: center;
+}
+main {
+  font-family: times;
+  font-weight: normal;
+  border: 2px solid #777777;
+
+}
+footer {
+  color: #00D59D;
+  font-weight: bold;
+  font-size: 14px;
+}
+p{
+  line-height:2;
+  padding-left: 20px;
+  padding-right: 20px;
+}
