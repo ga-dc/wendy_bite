@@ -17,6 +17,11 @@ a {
   color:#00d59d;
 }
 
+li {
+  border-right: 1px solid;
+
+}
+
 a:active {
   color:white;
 }
