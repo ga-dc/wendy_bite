@@ -1,3 +1,14 @@
 body {
   background: #444444;
+  color: #FFFFFF;
+  width: 40em;
+  margin: 2em auto;
+  border: 5px solid #777777;
+}
+
+img {
+  float: right;
+  padding: 5px;
+  border: 1px solid #FFFFFF;
+  margin: 10px;
 }
