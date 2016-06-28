@@ -16,6 +16,7 @@ header {
 a {
   color:#00d59d;
   border-right: 1px solid;
+  padding-right: 5px;
 }
 
 a:last-child {
