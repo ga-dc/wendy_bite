@@ -4,6 +4,26 @@ body {
   width: 40em;
   margin: 2em auto;
   border: 5px solid #777777;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  border-bottom: 1px solid #FFFFFF;
+  padding: 20px 0;
+}
+a {
+  color: #66CD9B;
+  padding: 0 10px;
+}
+
+a.active {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+a:not(:last-of-type) {
+  border-right: 1px solid #FFFFFF;
 }
 
 img {
@@ -11,4 +31,7 @@ img {
   padding: 5px;
   border: 1px solid #FFFFFF;
   margin: 10px;
+}
+footer {
+  text-align: center;
 }
