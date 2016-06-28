@@ -15,10 +15,11 @@ header {
 
 a {
   color:#00d59d;
+  border-right: 1px solid;
 }
 
-li {
-  border-right: 1px solid;
+a:last-child {
+  border-right: none;
 
 }
 
