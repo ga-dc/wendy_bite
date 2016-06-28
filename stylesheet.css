@@ -1,0 +1,18 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+/* HEADER SECTION */
+
+h1 {
+  font-style: italic;
+}
+
+header a {
+  text-decoration: none;
+  font-weight: 700;
+  color: rgb(116, 116, 116);
+}
