@@ -1,0 +1,131 @@
+body {
+    background-color: #4d4d4d;
+    border-style: solid;
+    border-color: #a6a6a6;
+    margin: 3em;
+    width: 38%;
+    margin: auto;
+    margin-top: 2em;
+}
+
+h1 {
+    font-family: 'Amiri', serif;
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+
+nav {
+    text-align: center;
+    border-bottom-style: solid;
+    border-bottom: 1px solid;
+    border-color: #a6a6a6;
+    padding-bottom: 1.5em;
+    width: 88%;
+    margin: auto;
+}
+
+nav a:not(:last-of-type), footer a:not(:last-of-type){
+    border-right: 1px solid;
+    border-color: #bfbfbf;
+}
+
+.active{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+h2 {
+    color: white;
+    font-weight: bold;
+    margin-left: 1.8em;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 105%;
+    margin-top: 1.3em;
+    margin-bottom: 1.3em;
+}
+
+img{
+    float: right;
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 220px;
+    margin-right: 1.8em;
+    border: 1px solid white;
+    padding: .5em;
+    margin-left: 1em;
+    margin-bottom: .2em;
+
+}
+
+p {
+    margin-left: 2em;
+    margin-right: 1em;
+    font-size: 99%;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    border-top: 1px solid #a6a6a6;
+    margin-left: 2.2em;
+    margin-right: 2.2em;
+    padding-top: 1.8em;
+    padding-bottom: 2.2em;
+}
+
+a{
+    text-align: center;
+    color: rgba(0, 255, 150, 0.7);
+    font-weight: bold;
+    padding: 0 .3em 0 .3em;
+    height: 50%;
+}
+h4{
+    font-family: 'Ubuntu', sans-serif;
+    color: #cccccc;
+    margin-left: 2.3em;
+    font-size: 80%;
+    margin-bottom: 1.3em;
+}
+.education{
+    color: #cccccc;
+    margin-left: 2.3em;
+    margin-bottom: 1.3em;
+}
+
+.summary {
+    font-size: 93%;
+    padding-bottom: 1em;
+}
+
+span{
+    color: #cccccc;
+    font-size: 80%;
+}
+
+
+
+li{
+    color: white;
+    font-size: 74%;
+    margin-left: 1.3em;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.resume {
+    margin: 1em;
+    margin-left: 1.7em;
+    margin-top: .4em;
+    margin-right: 6em;
+    font-size: 80%;
+    color: #cccccc;
+}
+
+ul {
+    margin-top: .3em;
+}
