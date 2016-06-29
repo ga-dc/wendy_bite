@@ -62,10 +62,10 @@ footer {
   margin-bottom: 1em;
 }
 
-.social_links {
+a.social_links {
   color: black;
   font-weight: bold;
-  text-decoration: underline;
+  text-decoration: none;
   padding: 0 1em;
   margin-bottom: 2em;
   height: 1em;
