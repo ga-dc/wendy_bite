@@ -30,6 +30,10 @@ h2 {
   font-size: 1em;
 }
 
+h3, span{
+  color: lightgrey;
+}
+
 article {
   display: block;
   line-height: 1.5;
@@ -55,4 +59,8 @@ img {
   margin: 1em;
   border: 1px solid gray;
   float: right;
+}
+
+ul {
+  line-height: 1.5;
 }
