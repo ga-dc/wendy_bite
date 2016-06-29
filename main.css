@@ -13,9 +13,10 @@ h3 {
   text-transform: uppercase;
   font-size: 1em;
 }
-p, ul {
+p, li {
   color: rgb(210, 210, 210);
   line-height: 1.5em;
+  font-family: Times, serif;
 }
 li{
   list-style-type: square;
@@ -37,6 +38,10 @@ a:hover {
   color: white;
   text-decoration: none;
 }
+a:not(:last-child){
+  border-right: 1px solid white;
+  padding: 0 5px;
+}
 div.page {
   margin-left:auto;
   margin-right:auto;
@@ -56,4 +61,17 @@ img {
 footer {
   border-top: solid 1px grey;
   padding: 30px 0px 0px 0px;
+}
+span.title {
+  font-family: sans-serif;
+  color: white;
+  text-emphasis: bold;
+}
+span.company {
+  font-family: sans-serif;
+  font-size: .9em;
+}
+span.date {
+  font-family: sans-serif;
+  font-size: .8em;
 }
