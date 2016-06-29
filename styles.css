@@ -1,0 +1,51 @@
+header {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+footer{
+  text-align: center;
+  padding-top:20px;
+}
+
+body{
+  color: white;
+  background: rgb(92, 91, 91);
+  border: 5px solid rgb(131, 128, 123);
+  padding: 2em;
+  margin: 2em auto;
+  width: 40em;
+}
+img{
+border: 1px solid rgb(131, 128, 123);
+padding: 5px;
+float: right;
+}
+h1{
+  font-style: italic;
+}
+nav a, footer a{
+  padding: 0 10px;
+}
+nav a:not(:last-of-type),
+footer a:not(:last-of-type){
+  border-right:1px solid white;
+}
+a.active{
+  text-decoration:none;
+  color: white;
+}
+
+a{
+  color:rgb(39, 249, 179);
+}
+
+main{
+  padding: 2em 0;
+  border-color: rgb(131, 128, 123);
+  border-width: 1px 0;
+  border-style: solid;
+}
+p{
+  line-height: 1.5;
+}
