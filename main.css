@@ -1,0 +1,30 @@
+body {
+      background-color: rgb(77, 84, 74);
+}
+
+h1 {
+    color: white;
+    font-style: italic;
+    font-size: 24px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(58, 175, 87)
+}
+
+h2 {
+    font-weight: bold;
+    text-align: left;
+}
+
+img {
+    float:right;
+    border: 1px solid white;
+    clear: both;
+}
