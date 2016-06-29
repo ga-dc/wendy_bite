@@ -1,0 +1,56 @@
+body  {
+  background-color:rgb(47, 51, 52);
+  border: 4px solid rgb(123, 122, 129);
+  margin: 2em auto;
+  width:30em;
+  display:block;
+}
+img  {
+  border:1px solid rgb(188, 201, 196);
+  padding:4px;
+  float:right;
+  margin-left: 1em;
+
+}
+li  {
+  font:arial;
+  color:white;
+}
+h  {
+  color:white;
+  font:georgia;
+  font-style:italic;
+  font-size:50px;
+
+}
+h2{
+  color:white;
+  font:sans-serif;
+  font-size:30px;
+}
+nav{
+  text-align:center;
+}
+nav .active  {
+  color:white;
+}
+nav .inactive{
+  color:green;
+  border-left: 2px solid rgb(123, 122, 129);
+  padding-left:4px;
+}
+p{
+  color:white;
+}
+footer{
+  text-align:center;
+}
+footer .facebook{
+  color:green;
+  font:sans-serif;
+}
+footer .social{
+  color:green;
+  border-left:border-left: 2px solid rgb(123, 122, 129);
+  padding-left:4px;
+}
