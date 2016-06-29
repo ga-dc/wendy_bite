@@ -1,0 +1,28 @@
+body{
+  background:#444444;
+  border: 5px solid #777777;
+  width:40em;
+  margin:2em auto;
+  display:block;
+  text-align: center;
+  color:white;
+}
+header{
+  padding-bottom: 20px;
+}
+header, footer {
+  text-align: center;
+main {
+  border-color: #ccc;
+  border-width: 1px 0;
+  border-style: solid;
+  padding: 2em 0;
+    }
+a {
+  color:white;
+  text-decoration: none;
+}
+img{
+  float:right;
+  clear:both;
+}
