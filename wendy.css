@@ -56,10 +56,10 @@ hr {
 
 .wendy {
   float: right;
-  border: 5px solid grey;
+  border: 1px solid grey;
   height: 20%;
   width: 20%;
-  margin: 20px 20px 50px 20px;
+  margin: 20px 20px 65px 20px;
 
 }
 
@@ -82,4 +82,16 @@ footer {
   list-style-type: square;
   padding: 0;
   display: list-item;
+}
+
+.resume_des {
+  color: rgb(203, 208, 214)
+}
+
+.resume_header {
+  color: rgb(203, 208, 214)
+}
+
+#education {
+  margin-bottom: 30px;
 }
