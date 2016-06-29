@@ -1,0 +1,17 @@
+h1 {
+  color: white;
+  font-style: italic;
+}
+
+h2 {
+  font: Helvetica;
+}
+
+body{
+  color: white
+  background-color: grey
+}
+
+footer {
+  color: rgb(60,179,113);
+}
