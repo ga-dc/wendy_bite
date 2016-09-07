@@ -1,0 +1,66 @@
+body {
+  background: #3f3f3f;
+  color: rgba(255, 255, 255, 0.85);
+  font-family: 'Crimson Text', serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.4em;
+}
+div.container {
+ width: 650px;
+ margin: 30px auto;
+ border: solid rgba(255, 255, 255, 0.3) 5px;
+ padding: 0 60px;
+}
+header {
+  border-bottom: solid rgba(255, 255, 255, 0.3) 2px;
+}
+header h1 {
+  font-style: italic;
+  margin: 70px 0 0 0;
+  text-align: center;
+  font-size: 42px;
+}
+nav {
+  margin: 40px 0;
+  text-align: center;
+}
+a{
+  color: #4be593;
+}
+a.active {
+  color: rgba(255, 255, 255, 0.85);
+  text-decoration: none;
+}
+h2, h3, a, strong {
+  font-family: 'Open Sans', sans-serif;
+}
+h3 {
+  text-transform: capitalize;
+  color: rgba(255, 255, 255, 0.6);
+}
+main {
+  border-bottom: solid rgba(255, 255, 255, 0.3) 2px;
+}
+main img {
+  float: right;
+  border: solid rgba(255, 255, 255, 0.3) 2px;
+  padding: 5px;
+  margin: 0 0 30px 30px;
+}
+main ul li{
+  list-style-type: square;
+  margin-bottom: 20px;
+}
+strong {
+  font-weight: 800;
+}
+small {
+    color: rgba(255, 255, 255, 0.6);
+}
+span {
+    color: rgba(255, 255, 255, 0.6);
+}
+ul:nth-of-type(2) > li {
+  margin: 0px;
+}
