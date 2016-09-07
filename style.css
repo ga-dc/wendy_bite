@@ -1,0 +1,102 @@
+body{
+  background: #4d4d4d;
+  font-family: helvetica, sans-serif;
+  font-size: 14px;
+}
+
+/*links*/
+a{
+  color:#1affa3
+}
+
+.active{
+  color: white;
+  text-decoration: none;
+}
+
+nav{
+  margin-bottom: 25px;
+}
+
+
+#bodyborder{
+  border: 5px solid grey;
+  width: 70%;
+  margin: 0 auto;
+}
+
+
+
+/*header*/
+header{
+  text-align: center;
+  color: white;
+  font-weight: normal;
+}
+
+main p {
+  line-height: 1.5em;
+  font-weight: lighter;
+}
+
+
+.wrapper{
+  width: 80%;
+  text-align: left;
+  margin: 0 auto;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  color: white;
+}
+
+
+
+img{
+  float:right;
+}
+
+/*footer*/
+footer{
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 25px;
+}
+
+/*RESUME*/
+
+.title{
+  font-weight: bolder;
+}
+
+.company{
+  font-weight: 200;
+}
+
+ul{
+  list-style-type: square;
+  margin-bottom: 30px;
+}
+
+.description{
+  color: darkgrey;
+  margin-top: 5px;
+  line-height: 1.5em;
+}
+
+h3{
+  text-transform: uppercase;
+}
+
+/*clearfix*/
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
