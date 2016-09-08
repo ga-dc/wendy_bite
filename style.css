@@ -3,9 +3,9 @@ body {
 }
 
 .wrapper {
-  background-color: grey;
+  background-color: #3f3f3f;
   padding: 100px;
-  border: 10px solid #bdbdbd;
+  border: 10px solid #7e7e7e;
   margin: 10px auto;
   height: auto;
   width: 50%;
@@ -15,55 +15,58 @@ body {
 
 h1 {
  text-align: center;
- color: white;
+ color: #bdbdbd;
+ font-style: italic;
+ font-family: "Times New Roman",cursive;
+}
+.active{
+  color: white;
 }
 
-nav {
-  text-align: center;
-
-}
 
 h2 {
   text-align: left;
   color: white;
+  font-family: sans-serif;
 }
 
 nav {
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #7e7e7e;
   padding-bottom: 20px;
+  text-align: center;
 
 }
 nav a {
-  border-right: 1px solid white;
+  border-right: 1px solid #7e7e7e;
   font-size: 20px;
   color: #43c943;
   font-weight: bold;
+  font-family: sans-serif;
 }
 
 p {
 text-align: left;
 font-size: 20px;
 line-height: 30px;
-color: white;
+color: #bdbdbd;
 }
 
 img {
   float: right;
   padding: 2px;
-  border: 1px solid white;
+  border: 1px solid #7e7e7e;
   margin: 10px;
 }
 
 footer {
   text-align: center;
-  padding-top: 20 px;
-  border-top: 1px solid white;
+  padding-top: 30 px;
+  border-top: 1px solid #7e7e7e;
   font-size: 20px;
 }
 
 footer a {
   color: #43c943;
-  padding-top: 10px;
   text-decoration: underline;
   font-weight: bold;
 }
