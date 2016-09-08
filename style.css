@@ -1,0 +1,37 @@
+img {
+  float: right;
+  border: gray solid 5px;
+  padding: 5px;
+  margin: 30px;
+}
+body {
+  background-color: rgb(84, 76, 76);
+  font-size: 18px;
+}
+header {
+  border-bottom: gray solid 5px;
+}
+div.container {
+  color: white;
+  width: 700px;
+  margin:auto;
+  border: gray solid 5px;
+  padding: 30px;
+}
+nav {
+  margin: 30px;
+  text-align:center;
+}
+h1 {
+  font-family: Garimond;
+  text-align:center;
+}
+main {
+  border-bottom: gray solid 5px;
+}
+a {
+  color: #4be593;
+}
+a.active {
+  color:white;
+}
