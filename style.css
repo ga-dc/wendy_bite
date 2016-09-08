@@ -1,11 +1,14 @@
+
+
 body {
   background-color: rgb(68,68,68);
-  color:white;
+  color:#787878;
   text-align: center;
   border:4px solid #787878;
-  padding: 60px;
+  padding: 10px;
   margin:40px;
   display:inline-block;
+
 
 }
 img {
@@ -13,26 +16,25 @@ img {
   padding: 3px;
   margin:0 0 20px 20px;
   float: right;
-  width:200px;
-  height: 250px;
+  width:160px;
+  height: 190px;
 }
 
 h1 {
   text-align: center;
   font-style: italic;
+  color: white;
 }
 h2 {
   text-align: left;
   font-family:"ariel black", sans-serif;
+  color: white;
 }
 p{
 text-align: left;
+color: white;
 }
-hr {
-  border-color: #787878;
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
+
 .active {
   color: white;
   font-family:"ariel black", sans-serif;
@@ -42,6 +44,12 @@ footer{
 
 }
 a {
-  color: #67d19e;
+  color: #2ad498;
   font-family:"ariel black", sans-serif;
+}
+main {
+  border-top: 1px solid #787878;
+  border-bottom: 1px solid #787878;
+  margin: 30px;
+  padding: 20px;
 }
