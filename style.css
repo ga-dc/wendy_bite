@@ -1,0 +1,44 @@
+body{
+  text-align:center;
+  margin:auto;
+  color:#FFFFFF;
+  background:#575757;
+  border-style: solid;
+  width:600px;
+  font-family: serif, sans-serif;
+}
+
+hr{
+  margin: 40px;
+}
+
+h1{
+  font-style: italic;
+}
+h2{
+    font-family: sans-serif;
+}
+
+main{
+  text-align: left;
+  padding: 0 40px;
+}
+
+img{
+  float:right;
+  margin: 0 50px 20px 30px;
+  border-style: double;
+}
+
+a{
+  font-family: sans-serif, serif;
+  color: #00cdcd;
+}
+
+.active{
+  color: #FFFFFF;
+}
+
+.divider{
+  margin: 0 0 0 4px;
+}
