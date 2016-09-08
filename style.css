@@ -1,0 +1,37 @@
+body{
+  background-color: #444444;
+  border: 5px solid #cccccc;
+  margin 8px;
+  padding: 80px;
+}
+header{
+  text-align: center;
+}
+p{
+  font-size: 24px;
+  color: #ffffff;
+}
+h1{
+  color: #ffffff;
+}
+h2{
+  color: #ffffff;
+  text-align: left;
+}
+img{
+  border: 1px solid #cccccc;
+  float: right;
+}
+.about{
+  text-align: left;
+  font-size: 28px;
+}
+li{
+  font-size: 18px;
+  color: #ffffff;
+  text-align: left;
+  list-style: square;
+}
+.intro{
+  font-size: 20px;
+}
