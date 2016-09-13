@@ -1,0 +1,55 @@
+
+header{
+   margin: 0 auto;
+   text-align: center;
+ }
+
+ body{
+     width: 65%;
+     margin: auto;
+     background-color: gray;
+     border: 8px solid #777777;
+     padding: 50px;
+ }
+
+ a{
+   color: #01D49C;
+ }
+
+ main{
+   text-align: left;
+   font-family: 'EB Garamond', serif;
+   font-size: 18px;
+   border-top: 1px solid #777777;
+   border-bottom: 1px solid #777777;
+   margin-top: 20px;
+   margin-bottom: 20px;
+ }
+
+ img {
+   float: right;
+   padding: 3px;
+   border: 1px solid #777777;
+ }
+
+ p {
+   width: 65%;
+   display: inline-block;
+  color: white;
+ }
+
+ h1{
+   color: white;
+   font-style: italic;
+   font-family: 'EB Garamond', serif;
+   font-size: 30px;
+ }
+
+ h2{
+   color: white;
+   font-family: 'EB Garamond', serif;
+   font-size: 25px
+ }
+ footer{
+   text-align: center;
+ }
