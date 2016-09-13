@@ -1,0 +1,99 @@
+body {
+    margin: 30px;
+    border: 4px solid #777777;
+    padding: 50px;
+    background-color: #444444;
+    text-align: center;
+    color: #777777;
+    font-size: 12pt;
+}
+
+header {
+    margin-bottom: 40px;
+}
+
+main {
+    border-top: 2px solid #777777;
+    border-bottom: 2px solid #777777;
+    padding: 20px 0;
+    text-align: left;
+    color: #ffffff;
+}
+
+footer {
+    margin-top: 40px;
+}
+
+img {
+    margin-left: 20px;
+    border: 2px solid #777777;
+    padding: 5px;
+    float: right;
+}
+
+h1 {
+    font-family: "Georgia", serif;
+    font-style: oblique;
+    font-weight: normal;
+    color: #ffffff;
+    font-size: 24pt;
+}
+
+h2 {
+    font-family: "Arial", sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 16pt;
+}
+
+h3 {
+    padding-top: 20px;
+    font-family: "Arial", sans-serif;
+    font-size: 12pt;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #aaaaaa;
+}
+
+a {
+    font-family: "Arial", sans-serif;
+    font-weight: bold;
+    color: #00d59d;
+}
+
+p {
+    padding: 5px 0;
+    line-height: 1.4em;
+}
+
+li {
+    padding: 10px 0;
+    list-style-type: square;
+    font-size: 12pt;
+    line-height: 1.4em;
+}
+
+.job-info {
+    font-family: "Arial", sans-serif;
+}
+
+.job-info small {
+    color: #aaaaaa;
+}
+
+.job-description {
+    color: #aaaaaa;
+}
+
+.active {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.clearfix:after {
+   content: " ";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
