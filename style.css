@@ -1,0 +1,64 @@
+h1, nav, footer {
+  text-align: center;
+}
+header, body, footer {
+  background: rgb(68,68,68);
+  color: white;
+}
+#border {
+  border: 5px solid rgb(119,119,119);
+  margin: 30px 30px 30px 30px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+#padding {
+  padding: 50px;
+}
+h1 {
+  font-style: italic;
+  font-size: 40px;
+}
+h2, a {
+  font-family: sans-serif;
+}
+a {
+  color: rgb(0,213,157);
+  font-weight: bold;
+}
+img {
+  float: right;
+  border: 1px solid rgb(153,153,153);
+  padding: 4px;
+  height: 50%;
+  width: 50%;
+
+}
+.clearfix {
+    clear:both
+}
+.navigation ul
+{
+    margin: 0;
+    padding: 0;
+}
+.navigation ul li
+{
+    list-style-type: none;
+    display: inline;
+}
+.navigation li:not(:first-child):before {
+    content: " | ";
+    color: rgb(153,153,153);
+}
+.active {
+  text-decoration: none;
+  color: white;
+}
+footer {
+  margin-top: -30px;
+  margin-bottom: 30px;
+}
+p {
+  font-size: 17px;
+}
