@@ -42,7 +42,8 @@ body {
   color: white;
   border: 5px solid rgb(126,126,126);
   padding: 15px 10px 10px 15px;
-
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 a {
