@@ -5,6 +5,7 @@ body {
   font-family: georgia, serif;
   padding: 5%;
   margin: 30px;
+  padding-bottom: 0;
 }
 
 * {
@@ -22,7 +23,6 @@ img {
 hr {
   width: 95%;
   margin: 20px;
-  clear:both;
 }
 
 h1 {
@@ -34,6 +34,12 @@ h1 {
 
 footer {
   font-family: arial, sans-serif;
+}
+
+#signature {
+  font-size: 10px;
+  font-family: cursive;
+  color: #8a8a8a;
 }
 
 h2 {
@@ -73,4 +79,13 @@ main {
 footer a:not(:first-child){    /*vertical lines between foot links*/
   border-left:1px solid darkgray;
   padding-left: 3px;
+}
+
+p #thanks {
+  text-align: center;
+  font-size: 30px;
+  color: #FF442A;
+  display: block;
+  padding-top: 40px;
+  text-transform: uppercase;
 }
