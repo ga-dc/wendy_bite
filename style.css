@@ -4,8 +4,8 @@ body{
   width: 550px;
   align-content: center;
   margin:auto;
-  border-style: solid;
   border: 10px solid white;
+  padding: 50px 50px 50px 50px;
 }
 
 header {
@@ -19,7 +19,8 @@ h2{
 
 img{
   float: right;
-  padding: 10px 10px 10px 10px;
+  padding: 15px 15px 15px 15px;
+  border: 2px solid white;
 }
 
 p{
@@ -29,6 +30,15 @@ p{
 
 
 footer{
-  clear-flow: auto;
   text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
+
+a{
+  color: green;
+}
+
+.active {
+ text-decoration: none;
+ color: white;
