@@ -4,7 +4,7 @@ h1 {
 }
 
 header {
-  align: center;
+  text-align: center;
 }
 
 body {
@@ -12,8 +12,8 @@ border: 5px solid grey;
 background-color: #5a5f66;
 color: white;
 margin: 20px;
-width: 90% auto;;
-height: 90% auto;
+width: 90%;
+height: 90%;
 }
 
 hr {
