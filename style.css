@@ -1,0 +1,44 @@
+body{
+  background-color: #51565C;
+  height: 1000px;
+  width: 550px;
+  align-content: center;
+  margin:auto;
+  border: 10px solid white;
+  padding: 50px 50px 50px 50px;
+}
+
+header {
+  text-align: center;
+  color: white;
+}
+
+h2{
+  color: white;
+}
+
+img{
+  float: right;
+  padding: 15px 15px 15px 15px;
+  border: 2px solid white;
+}
+
+p{
+  color: white;
+  font-family: serif;
+}
+
+
+footer{
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+a{
+  color: green;
+}
+
+.active {
+ text-decoration: none;
+ color: white;
