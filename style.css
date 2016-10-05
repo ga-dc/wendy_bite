@@ -1,6 +1,6 @@
-body {
-  background: #444444;
-  border: white;
+
+html {
+  padding: 25px;
 }
 
 h1 {
@@ -8,7 +8,17 @@ h1 {
   text-align: center;
   font-style: italic;
   font-weight: lighter;
+  font-family: Georgia;
+  padding: 20px 0 0 0;
 }
+
+body {
+  background: rgb(68,68,68);
+  border: 5px solid rgb(126,126,126);
+  padding: 15px;
+  color: white;
+}
+
 
 h2 {
   color: white;
@@ -16,27 +26,31 @@ h2 {
 
 main {
   color: white;
-  border:2px solid #777777;
+  border:2px solid rgb(126,126,126);
   border-left-style: none;
   border-right-style: none;
+  font-family: georgia;
+  width: 90%;
+  margin: auto;
 }
 
 nav {
+  margin-bottom: 30px;
   text-align: center;
 }
 
 a {
-  color: #62cd9c;
+  color: rgb(0,215,158);
   font-weight: bold;
+  font-family: Helvetica;
+  text-align: center;
 }
 
 img {
   float: right;
   padding:4px;
-  border:1px solid #777777;
+  border:2px solid rgb(126,126,126);
+  padding: 5px;
+  margin: 0 0 10px 10px;
 }
-}
-
-footer{
-  text-align: center;
 }
