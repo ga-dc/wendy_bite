@@ -19,6 +19,9 @@ body {
   color: white;
 }
 
+.active {
+    color: white;
+ }
 
 h2 {
   color: white;
@@ -30,7 +33,7 @@ main {
   border-left-style: none;
   border-right-style: none;
   font-family: georgia;
-  width: 90%;
+  width: 85%;
   margin: auto;
 }
 
@@ -53,4 +56,14 @@ img {
   padding: 5px;
   margin: 0 0 10px 10px;
 }
+
+footer {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.clear {
+  clear: both;
+
 }
