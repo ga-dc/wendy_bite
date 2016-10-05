@@ -1,13 +1,10 @@
-
-
 body {
-  width: 700px;
+  width: 600px;
   margin: 0 auto;
 }
 header {
   text-align: center;
 }
-
 
 footer {
   text-align: center;
@@ -15,8 +12,10 @@ footer {
 
 img {
   float: right;
+  margin: 10px;
 }
 
 p {
   margin: 0 50px 25px 0;
+  line-height: 1.7em;
 }
