@@ -1,6 +1,7 @@
 body {
   background: #696969;
   border: 5px solid #D3D3D3;
+  overflow: auto;
   align-content: center;
   padding: 80px 50px;
 }
@@ -15,9 +16,9 @@ h1 {
 
 nav {
   text-align: center;
-  margin-right: -4px;
-  margin-bottom: -4px;
-  padding: 0;
+  padding: 40px;
+  border-bottom: 1px solid #D3D3D3;
+  overflow: auto;
 }
 
 .active {
@@ -28,26 +29,36 @@ h2 {
   font-weight: bold;
   color: #FFF;
   font-size: 20px;
+  text-transform: uppercase;
+  font-family: verdana serif;
 }
 
 
 img {
   float: right;
-  padding: 3;
-  border: 1px solid #D3D3D3;
-  margin: 10px; S
+  display: block;
+  padding: 3px;
+  border: .5px solid #D3D3D3;
+  margin: 10px;
+  max-width: 175px;
 }
 
 p {
 color: #FFF;
+text-align: left;
 }
 
 a {
   color:#00C78C;
   font-weight: bold;
   font-size: 15px;
+  padding: 3px;
+
 }
 
 footer {
+  border-top: .5px solid #D3D3D3;
+  overflow: auto;
   text-align: center;
+  padding-top: 20px;
 }
