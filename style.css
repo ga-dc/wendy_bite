@@ -1,9 +1,10 @@
 body {
-  background: #696969;
+  background-color: #696969;
   border: 5px solid #D3D3D3;
   overflow: auto;
   align-content: center;
   padding: 80px 50px;
+  margin: 3em 1em;
 }
 
 h1 {
@@ -18,7 +19,8 @@ nav {
   text-align: center;
   padding: 40px;
   border-bottom: 1px solid #D3D3D3;
-  overflow: auto;
+  text-transform: full-width;
+  overflow:auto;
 }
 
 .active {
@@ -30,7 +32,7 @@ h2 {
   color: #FFF;
   font-size: 20px;
   text-transform: uppercase;
-  font-family: verdana serif;
+  font-family: arial sans-serif;
 }
 
 
@@ -45,7 +47,7 @@ img {
 
 p {
 color: #FFF;
-text-align: left;
+display: flex;
 }
 
 a {
@@ -60,5 +62,19 @@ footer {
   border-top: .5px solid #D3D3D3;
   overflow: auto;
   text-align: center;
+  text-transform: full-width;
   padding-top: 20px;
+}
+
+ul {
+  paddng: 0;
+  margin: 0;
+}
+
+li {
+  display: inline;
+}
+
+li a:after {
+  content: " | ";
 }
