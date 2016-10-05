@@ -1,0 +1,91 @@
+body {
+  border: 5px solid darkgray;
+  text-align: center;
+  color: white;
+  font-family: georgia, serif;
+  padding: 5%;
+  margin: 30px;
+  padding-bottom: 0;
+}
+
+* {
+  background-color: #333333; // make this darker ######
+}
+
+img {
+  border: 1px solid white;
+  padding: 5px;
+  float: right;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+hr {
+  width: 95%;
+  margin: 20px;
+}
+
+h1 {
+  font-style: italic;
+  font-family: georgia, serif;
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+footer {
+  font-family: arial, sans-serif;
+}
+
+#signature {
+  font-size: 10px;
+  font-family: cursive;
+  color: #8a8a8a;
+}
+
+h2 {
+  font-family: arial, sans-serif;
+  text-align: justify;
+  text-align: left;
+  font-size: 30px;
+}
+
+p {
+  font-size: 20px;
+  text-align: left;
+  color: #999999;
+}
+
+/*active {
+  font-family: arial, sans-serif;
+  text-decoration: none;
+
+}*/
+
+/*nav {
+
+}*/
+
+a {
+  color: #2AFF97;
+  font-family: arial, sans-serif;
+  font-weight: bold;
+  text-decoration: underline none; /*not working*/
+}
+
+main {
+  padding: 20px;
+}
+
+footer a:not(:first-child){    /*vertical lines between foot links*/
+  border-left:1px solid darkgray;
+  padding-left: 3px;
+}
+
+p #thanks {
+  text-align: center;
+  font-size: 30px;
+  color: #FF442A;
+  display: block;
+  padding-top: 40px;
+  text-transform: uppercase;
+}
