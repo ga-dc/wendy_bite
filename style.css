@@ -4,6 +4,7 @@ body {
   color: white;
   font-family: georgia, serif;
   padding: 5%;
+  margin: 30px;
 }
 
 * {
@@ -14,6 +15,7 @@ img {
   border: 1px solid white;
   padding: 5px;
   float: right;
+  margin-left: 25px;
 }
 
 hr {
@@ -41,7 +43,6 @@ h2 {
 
 p {
   font-size: 18px;
-  text-align: justify;
   text-align: left;
 }
 
@@ -56,7 +57,16 @@ p {
 }*/
 
 a {
-  color: green;
+  color: lightgreen;
   font-family: arial, sans-serif;
   font-weight: bold;
+  text-decoration: underline none;
+}
+
+main {
+  padding: 20px;
+}
+
+footer a:not(:first-child){
+  border-left:1px solid #000;
 }
