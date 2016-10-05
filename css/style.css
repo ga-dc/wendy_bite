@@ -1,5 +1,14 @@
+html {
+  background-color: #464646;
+
+  color: white;
+}
+
 body {
-  width: 600px;
+  border: 5px solid;
+  border-color: #767676;
+  width: 650px;
+  padding: 50px;
   margin: 0 auto;
 }
 header {
