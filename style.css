@@ -1,0 +1,53 @@
+body {
+  background: #434343;
+  font-family:arial, serif;
+  color: #fff;
+  border: 5px solid #888888;
+  width: 40em;
+  margin: 1em auto;
+  padding: 3em;
+  align: center;
+
+
+}
+header, footer {
+  text-align: center;
+  font-weight: bold;
+  padding: 2em;
+}
+
+.active {
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+
+
+}
+.clickMe {
+  color: #10CD8C;
+}
+img {
+  float: right;
+  margin: 1em;
+  border: 1px solid;
+  padding: 2px;
+}
+h1{
+  font-style: italic;
+  text-align: center;
+  color: rgb(255,255,255);
+  font-family:Georgia, serif;
+  padding: 5px;
+}
+main{
+  border-color:#ccc;
+  border-width:1px 0;
+  border-style:solid;
+  padding:2em 0;
+}
+p {
+  text-align: left;
+  border: 10px;
+  font-family:Georgia, serif;
+  line-height: 1.75;
+}
