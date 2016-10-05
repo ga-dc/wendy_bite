@@ -8,19 +8,21 @@ body {
 }
 
 * {
-  background-color: gray; // make this darker ######
+  background-color: #333333; // make this darker ######
 }
 
 img {
   border: 1px solid white;
   padding: 5px;
   float: right;
-  margin-left: 25px;
+  margin-left: 30px;
+  margin-bottom: 30px;
 }
 
 hr {
   width: 95%;
   margin: 20px;
+  clear:both;
 }
 
 h1 {
@@ -42,8 +44,9 @@ h2 {
 }
 
 p {
-  font-size: 18px;
+  font-size: 20px;
   text-align: left;
+  color: #999999;
 }
 
 /*active {
@@ -57,16 +60,17 @@ p {
 }*/
 
 a {
-  color: lightgreen;
+  color: #2AFF97;
   font-family: arial, sans-serif;
   font-weight: bold;
-  text-decoration: underline none;
+  text-decoration: underline none; /*not working*/
 }
 
 main {
   padding: 20px;
 }
 
-footer a:not(:first-child){
-  border-left:1px solid #000;
+footer a:not(:first-child){    /*vertical lines between foot links*/
+  border-left:1px solid darkgray;
+  padding-left: 3px;
 }
