@@ -1,8 +1,8 @@
 body {
-  border:solid;
+  border:3px solid #a6a6a6;
   margin:20px;
-  background-color:#262626;
-  color: #bfbfbf;
+  background-color:#404040;
+  color: #f2f2f2;
   width:95%;
 }
 header {
@@ -16,9 +16,13 @@ header, nav {
 h1{
   font-style: italic;
 }
+h2, a {
+    font-family:arial;
+}
 
  a {
     color:rgb(0, 204, 153);
+    font-weight:bold;
  }
  main {
    border-bottom:.5px solid #d9d9d9;
@@ -26,10 +30,10 @@ h1{
  }
 
  p img {
-   border:solid ;
+   border:.5px solid #d9d9d9 ;
    float:right;
    margin-left:10px;
-   padding:10px;
+   padding:5px;
    margin:0 10px 10px 10px;
  }
   .clear {
@@ -38,4 +42,8 @@ h1{
 footer{
   text-align: center;
   margin: 40px ;
+}
+.social{
+  border-right: .5px solid #d9d9d9;
+  padding-right: 3px;
 }
