@@ -19,16 +19,6 @@ a {
   letter-spacing: -2px; /*neat*/
 }
 
-a:active {
-  text-decoration: none;
-}
-
-a:visited {
-
-}
-
-
-
 h1 {
   font-weight: 200;
   font-style: italic;
@@ -45,11 +35,24 @@ header {
 
 footer {
   text-align: center;
+  margin-top: 20px;
+}
+
+footer>a {
+  border-right: 2px solid;
+  border-color: #989898;
+  padding-right: 5px;
+}
+
+footer>a:last-child {
+  border: none;
 }
 
 img {
   float: right;
   margin: 20px;
+  border: 1px solid;
+  border-color: #989898;
 }
 
 p {
@@ -62,7 +65,8 @@ main {
   border-top: 1px solid;
   border-bottom: 1px solid;
   border-color: #989898;
-  padding: 20px 0;
+  margin-bottom: 40px;
+  padding: 10px 0;
 }
 
 nav {
