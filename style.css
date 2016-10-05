@@ -1,0 +1,53 @@
+body {
+  background: #696969;
+  border: 5px solid #D3D3D3;
+  align-content: center;
+  padding: 80px 50px;
+}
+
+h1 {
+  text-align: center;
+  font-style: oblique;;
+  font-family: Helvetica sans-serif;
+  color: #FFF;
+  padding: 0 auto;
+}
+
+nav {
+  text-align: center;
+  margin-right: -4px;
+  margin-bottom: -4px;
+  padding: 0;
+}
+
+.active {
+  text-decoration: none;
+}
+
+h2 {
+  font-weight: bold;
+  color: #FFF;
+  font-size: 20px;
+}
+
+
+img {
+  float: right;
+  padding: 3;
+  border: 1px solid #D3D3D3;
+  margin: 10px; S
+}
+
+p {
+color: #FFF;
+}
+
+a {
+  color:#00C78C;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+footer {
+  text-align: center;
+}
