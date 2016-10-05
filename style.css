@@ -1,0 +1,34 @@
+body{
+  background-color: #51565C;
+  height: 1000px;
+  width: 550px;
+  align-content: center;
+  margin:auto;
+  border-style: solid;
+  border: 10px solid white;
+}
+
+header {
+  text-align: center;
+  color: white;
+}
+
+h2{
+  color: white;
+}
+
+img{
+  float: right;
+  padding: 10px 10px 10px 10px;
+}
+
+p{
+  color: white;
+  font-family: serif;
+}
+
+
+footer{
+  clear-flow: auto;
+  text-align: center;
+}
