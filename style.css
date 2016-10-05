@@ -1,0 +1,44 @@
+body {
+  border: 5px solid darkgray;
+  text-align: center;
+  color: white;
+  font-family: georgia, serif;
+  padding: 5%;
+}
+
+* {
+  background-color: gray; // make this darker ######
+}
+
+img {
+  border: 1px solid white;
+  padding: 5px;
+  float: right;
+}
+
+hr {
+  width: 95%;
+}
+
+h1 {
+  font-style: italic;
+  font-family: georgia, serif;
+  font-size: 40px;
+}
+
+footer {
+  font-family: arial, sans-serif;
+}
+
+h2 {
+  font-family: arial, sans-serif;
+  text-align: justify;
+  text-align: left;
+  font-size: 30px;
+}
+
+p {
+  font-size: 18px;
+  text-align: justify;
+  text-align: left;
+}
