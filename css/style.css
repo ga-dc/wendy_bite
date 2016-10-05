@@ -1,6 +1,5 @@
 html {
   background-color: #464646;
-
   color: white;
 }
 
@@ -11,9 +10,38 @@ body {
   padding: 50px;
   margin: 0 auto;
 }
+
+a {
+  color: #4BD99B;
+  font-kerning: auto;
+  font-weight: bold;
+  font-size: larger;
+  letter-spacing: -2px; /*neat*/
+}
+
+a:active {
+  text-decoration: none;
+}
+
+a:visited {
+
+}
+
+
+
+h1 {
+  font-weight: 200;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 30px;
+}
+
 header {
   text-align: center;
 }
+
 
 footer {
   text-align: center;
@@ -27,4 +55,28 @@ img {
 p {
   margin: 0 30px 20px 0;
   line-height: 1.5em;
+  color: #EDEDED;
+}
+
+main {
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-color: #989898;
+  padding: 20px 0;
+}
+
+nav {
+  margin: 40px;
+}
+
+nav>a:first-child {
+  border-color: #989898;
+  border-right: 1px solid;
+  padding-right: 5px;
+  color: white;
+  text-decoration: none;
+}
+
+nav>a:last-child {
+  padding: 5px;
 }
