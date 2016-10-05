@@ -5,6 +5,7 @@ body {
   align-content: center;
   padding: 80px 50px;
   margin: 3em 1em;
+
 }
 
 h1 {
@@ -67,7 +68,7 @@ footer {
 }
 
 ul {
-  paddng: 0;
+  padding: 0;
   margin: 0;
 }
 
@@ -77,4 +78,10 @@ li {
 
 li a:after {
   content: " | ";
+  color: #D3D3D3;
+
+}
+
+.last:after {
+  content: none;
 }
