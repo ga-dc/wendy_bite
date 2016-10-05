@@ -1,0 +1,49 @@
+* {
+  color: white;
+  font-family: Times;
+  background-color: #696969;
+
+}
+
+header {
+  text-align: center;
+}
+h1 {
+  font-style: italic;
+  font-weight: normal;
+}
+
+a.active {
+  text-decoration: none;
+  color: white;
+}
+
+a {
+  color : #66CDAA;
+  text-align: center;
+  font-weight: bold;
+}
+
+body {
+  border: 4px solid grey;
+  margin: 5%;
+  padding:10% 8%;
+}
+
+main {
+  border-top: 2px solid grey;
+  border-bottom: 2px solid grey;
+  padding: 20px 10px 10px 10px;
+  margin: 10px auto 10px auto;
+
+}
+
+img {
+  border: 1px solid grey;
+  padding: 2px;
+  float: right;
+}
+
+footer {
+  text-align: center;
+}
