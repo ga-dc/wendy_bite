@@ -18,12 +18,14 @@ img {
 
 hr {
   width: 95%;
+  margin: 20px;
 }
 
 h1 {
   font-style: italic;
   font-family: georgia, serif;
   font-size: 40px;
+  font-weight: lighter;
 }
 
 footer {
@@ -41,4 +43,20 @@ p {
   font-size: 18px;
   text-align: justify;
   text-align: left;
+}
+
+/*active {
+  font-family: arial, sans-serif;
+  text-decoration: none;
+
+}*/
+
+/*nav {
+
+}*/
+
+a {
+  color: green;
+  font-family: arial, sans-serif;
+  font-weight: bold;
 }
