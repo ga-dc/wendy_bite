@@ -1,12 +1,25 @@
 body {
-  background: #444444;
-  border: 4px #777777 solid;
-  color: white;
-  text-align: center;
-  margin: auto;
   width: 800px;
-  height: 1026px;
+  background: #444444;
+  margin: auto;
+  color: white;
+  border: 5px grey solid;
 }
-a {
-  color: #00d59d;
+header, footer {
+  text-align: center;
+}
+img {
+  float: right;
+}
+p {
+  /*font-size: 14px;*/
+}
+main p:last-child {
+  clear: both;
+}
+main {
+  width: 700px;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  margin: auto;
 }
