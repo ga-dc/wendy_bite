@@ -4,7 +4,7 @@ body {
   margin-right: auto;
   margin-left: auto;
   width: 710px;
-  font-family: Georgia; serif;
+  font-family: Georgia, serif;
   line-height: 1.5em;
   padding: 2em;
 }
@@ -22,7 +22,7 @@ a {
 
 a.active {
   color: white;
-  font-style: bold;
+  font-weight: bold;
   border-right: 1px solid #C1C1C1;
   text-decoration: none;
 }
