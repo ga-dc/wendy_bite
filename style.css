@@ -23,3 +23,6 @@ main {
   border-bottom: 1px solid white;
   margin: auto;
 }
+a {
+  color: teal;
+}
