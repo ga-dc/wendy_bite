@@ -1,0 +1,12 @@
+body {
+  background: #444444;
+  border: 4px #777777 solid;
+  color: white;
+  text-align: center;
+  margin: auto;
+  width: 800px;
+  height: 1026px;
+}
+a {
+  color: #00d59d;
+}
