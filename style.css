@@ -1,0 +1,97 @@
+html{
+  font-family: sans-serif;
+}
+
+h1{
+  color: white;
+  text-align: center;
+  font-style: italic;
+  font-family: serif;
+}
+
+h2{
+  color: white;
+}
+
+h3{
+  color: #999999;
+  font-size: 20px;
+}
+
+body{
+  background-color: #444444;
+  color: #eeeeee;
+  font-size: 20px;
+  line-height: 1.5;
+
+}
+
+hr{
+  color: red;
+}
+
+nav{
+  text-align: center;
+  font-family: sans-serif;
+}
+
+footer{
+  text-align: center;
+}
+
+a{
+  color: #23bb8c;
+  font-size: 20px;
+}
+
+.active{
+  color: white;
+  text-decoration: none;
+
+}
+
+.container{
+  border: 5px solid #777777;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin:  0 auto;
+  width: 600px;
+}
+
+img{
+  float: right;
+  height: auto;
+  width: auto;
+  max-width: 100%;
+  border: 2px solid #777777;
+  padding: 6px;
+  margin: 5px 5px 5px 10px;
+}
+
+span{
+  color: #777777;
+  font-size: 20px;
+}
+
+.edList{
+  font-size: 15px;
+  line-height: 2;
+}
+
+.workList{
+  font-size: 15px;
+
+}
+
+.resDescriptions{
+  color: #999999;
+  font-size: 12px;
+
+}
+
+.jobLoc{
+  font-size: 15px;
+  color: white;
+}
