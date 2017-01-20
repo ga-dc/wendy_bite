@@ -1,0 +1,70 @@
+
+body {
+  color: white;
+  background-color: #545454;
+  font-family: 'Georgia', serif;
+  padding: 0 50px;
+  border: 5px gray solid;
+  margin: 5%;
+  height: 100%;
+}
+
+header {
+  text-align: center;
+}
+
+#bigName {
+  font-family: 'Times New Roman', times, serif;
+  font-style: italic;
+  font-size: 36px;
+  padding: 5px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+nav {
+  padding: 15px 0;
+  margin: 5px;
+}
+
+img {
+  float: right;
+  padding: 4px;
+  border: 1px solid gray;
+  margin: 20px;
+  width: 40%;
+  height: 40%;
+  max-height: 240px;
+  max-width: 225px;
+}
+p {
+  line-height: 1.5;
+  padding: 15px 0;
+}
+.year {
+  color: #999999;
+  font-size: 14px;
+}
+li>p {
+  color: #999999;
+  padding: 0;
+  margin-top: 0;
+}
+h4 {
+  color: #a8a8a8;
+}
+.strong{
+  font-weight:bold;
+}
+.edu {
+  line-height: 1.5;
+}
+a {
+  color: #b2ffb2;
+  font-weight: bold;
+  padding: 20px 0;
+}
+
+footer {
+  text-align: center;
+  margin: 35px;
+}
