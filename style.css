@@ -1,0 +1,95 @@
+body{
+  background-color:rgb(71, 74, 79);
+  text-align: center;
+  padding: 10px;
+}
+h1{
+  font-size: 40px;
+  font-style: italic;
+  font-weight: bold;
+  font-family: 'Slabo 27px', serif;
+  color: white;
+}
+h2{
+
+  float: left;
+  font-family: 'Slabo 27px', serif;
+  font-weight: bold;
+  color: white;
+  text-align: left;
+}
+p{
+
+  clear: left;
+  text-align: left;
+  font-family: 'Roboto Slab', serif;
+  color: white;
+}
+img{
+  display: inline-block;
+  float: right;
+  padding: 5px;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  margin: 10px;
+  width: 30%;
+  margin-top: 30px;
+}
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.container{
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  margin: 10px;
+  padding: 50px;
+}
+footer{
+  display: block;
+}
+a{
+  color: rgb(66, 244, 235);
+  font-family: 'Roboto Slab', serif;
+  text-decoration: none;
+}
+.bottomline{
+  margin-top: 20px;
+}
+.line{
+  color: grey;
+}
+hr{
+  color: grey;
+}
+.pagetitle{
+  color: white;
+  font-family: 'Roboto Slab', serif;
+
+}
+h3{
+  text-transform: capitalize;
+  color: grey;
+  text-align: left;
+}
+.title, .company{
+  color: white;
+  font-weight: bold;
+}
+.description{
+  color: grey;
+}
+li{
+  text-align: left;
+  margin-top: 15px;
+  font-family: 'Roboto Slab', serif;
+}
+ul{
+  color: white;
+}
