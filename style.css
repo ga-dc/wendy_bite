@@ -25,6 +25,7 @@ img {
 }
 a {
   color: #3ccb9a;
+  font-weight: bold;
 }
 a.active {
   color: white;
@@ -35,9 +36,19 @@ header, footer {
 }
 header {
   padding-bottom: 1.25em;
+  border-bottom: 1px solid #ccc;
+  padding: 2em 0;
 }
 footer {
   padding-top: 1.25em;
+  border-top: 1px solid #ccc;
+  padding: 2em 0;
+}
+
+nav a, footer a{
+  font-size: 1rem;
+  padding: 0 10px;
+  display: inline-block;
 }
 nav a:not(:last-of-type),
 footer a:not(:last-of-type){
