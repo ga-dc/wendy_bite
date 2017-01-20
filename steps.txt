@@ -1,0 +1,2 @@
+- figure out if I need to use body to border the text or not.
+- I know that there is properties that help you put margin in or out
