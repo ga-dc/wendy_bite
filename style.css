@@ -1,0 +1,101 @@
+body {
+  background-color: #404040;
+  border: 5px solid gray;
+  color: white;
+  margin: 30px auto;
+  padding: 30px 50px 50px 50px;
+  max-width: 630px;
+}
+
+header {
+  text-align: center;
+  border-bottom: 1px solid gray;
+  padding-bottom: 30px;
+}
+
+footer {
+  border-top: 1px solid gray;
+  padding-top: 30px;
+  text-align: center;
+}
+
+img {
+  float: right;
+  margin: 0 0 20px 20px;
+  border: 1px solid gray;
+  padding: 5px;
+}
+
+a {
+  color: #00cc99;
+  font-weight: bold;
+  font-family: arial;
+  font-size: 18px;
+  padding: 2px;
+}
+
+h1 {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 38px;
+}
+
+h2 {
+  font-family: arial;
+  font-size: 26px;
+}
+
+h3 {
+  font-family: arial;
+  text-transform: uppercase;
+  color: gray;
+  margin-top: 40px;
+}
+
+p, li {
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+li.education {
+  margin-bottom: 0px;
+}
+
+ul {
+  list-style-type: square;
+  font-family: arial;
+}
+
+main {
+  padding: 10px 0;
+}
+
+span {
+  color: gray;
+  font-size: 18px;
+}
+
+.active {
+  color: white;
+  text-decoration: none;
+}
+
+.white-text {
+  color: white;
+  font-family: arial;
+}
+
+.date {
+  font-family: arial;
+  font-size: 14px;
+}
+
+.description {
+  color: gray;
+  font-size: 18px;
+  font-family: times;
+}
