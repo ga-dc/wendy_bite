@@ -1,0 +1,9 @@
+html{
+	margin:10%;
+}
+body{
+	background-color:darkgrey;
+	border: 5px;
+	border-color: black;
+	margin: 20px;
+}
