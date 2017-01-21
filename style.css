@@ -39,6 +39,9 @@ header {
   border-bottom: 1px solid #ccc;
   padding: 2em 0;
 }
+.bullets {
+  list-style-type: circle;
+}
 footer {
   padding-top: 1.25em;
   border-top: 1px solid #ccc;
