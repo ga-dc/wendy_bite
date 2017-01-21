@@ -9,8 +9,14 @@ body {
 }
 
 header {
+  width: 80%;
+  margin: 0 auto;
   padding: 20px;
   text-align: center;
+}
+
+.border-bottom {
+  border-bottom: 1px solid rgb(119, 119, 119);
 }
 
 .name {
@@ -29,8 +35,40 @@ a:link {
   text-decoration: none;
 }
 
+a:visited {
+  color: rgb(0, 160, 140);
+  text-decoration: none;
+}
+
 a:hover {
   color: rgb(68, 68, 68);
   background-color: rgb(0, 220, 160);
   border-radius: 10%;
+}
+
+main {
+  width: 90%;
+  margin: 0 auto;
+}
+
+main img {
+  transform: scale(0.8);
+  border: 2px solid rgb(119, 119, 119);
+  padding: 5px;
+  float: right;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+footer * {
+  display: inline;
+}
+
+footer p {
+  color: rgb(120, 120, 120);
 }
