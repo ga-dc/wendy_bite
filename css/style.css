@@ -1,9 +1,16 @@
 html{
-	margin:10%;
+
 }
 body{
+	width:100%;
+	flex-direction: column;
+	display:flex;
 	background-color:darkgrey;
 	border: 5px;
 	border-color: black;
-	margin: 20px;
+	
+}
+header, main, footer{
+	
+	justify-content:  center;
 }
