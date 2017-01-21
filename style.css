@@ -39,9 +39,6 @@ header {
   border-bottom: 1px solid #ccc;
   padding: 2em 0;
 }
-.bullets {
-  list-style-type: circle;
-}
 footer {
   padding-top: 1.25em;
   border-top: 1px solid #ccc;
@@ -56,4 +53,15 @@ nav a, footer a{
 nav a:not(:last-of-type),
 footer a:not(:last-of-type){
   border-right: 1px solid #ccc;
+}
+h3 {
+  text-transform: uppercase;
+  color: #777;
+}
+li {
+  line-height: 1.5em;
+}
+.date, .description {
+  /*font-size: .90em;*/
+  color: #777;
 }
