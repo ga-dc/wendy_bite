@@ -32,7 +32,7 @@ a {
   float: right;
   border: solid rgb(118,118,118) 3px;
   padding: 5px;
-  margin: 10px 0 10px 10px;
+  margin: 10px 0 0 15px;
 }
 img {
   width: 300px;
@@ -41,7 +41,6 @@ img {
 p {
   font-size: 35px;
   color: white;
-  overflow: auto;
 }
 footer {
   padding: 30px;
