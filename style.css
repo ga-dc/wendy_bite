@@ -59,11 +59,36 @@ main {
     border-top: 1px solid #777;
     margin: 35px 0;
     padding: 15px 0;
-}
-p {
     font-size: 20px;
 }
 
 footer {
     text-align: center;
+}
+
+/*resume*/
+span.title {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+span.subtitle {
+    font-family: sans-serif;
+    font-size: 17px;
+}
+span.desc {
+    display: block;
+    font-size: 18px;
+    color: #bbb;
+}
+li {
+    list-style-type: square;
+    padding-bottom: 15px;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-family: calibri, sans-serif;
+    font-size: 18px;
+    color: #bbb;
 }
