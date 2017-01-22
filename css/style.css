@@ -1,9 +1,26 @@
+
 header {
     padding: 8px;
     font-family: 'Cormorant', serif;
     padding-top: 5px;
 
 }
+
+#resume {
+  display: block;
+  width: 560px;
+  height: 1080px;
+  background-color: #444444;
+  margin: 0 auto;
+  padding: 10px;
+  border: 15px;
+  border-width: 6px;
+  border-color: #777777;
+  border-style: solid;
+  color: #ececec;
+  text-align: center;
+}
+
 
 body {
   display: block;
@@ -26,16 +43,43 @@ main {
   font-family: 'Cormorant', serif;
 }
 
+h3 {
+  font-family: 'Work Sans', sans-serif;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: lighter;
+  font-stretch: semi-expanded;
+  color: #aaaaaa;
+}
+
+ul {
+  margin: 5px 0 5px 0;
+  color: #aaaaaa;
+}
+
+li {
+  text-align: left;
+}
+
+#education {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  color:#ececec;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
 .active {
   color: #ececec;
   text-decoration: none;
-
 }
-
 
 a {
   color: #2aa47d;
-  text-decoration:none;
   font-family: 'Nunito Sans', sans-serif;
 }
 
@@ -50,7 +94,7 @@ h2 {
   text-align: left;
   font-family: 'Nunito Sans', sans-serif;
   font-weight: normal;
-  margin:3px 0 40px 0;
+  margin:3px 0 30px 0;
 }
 
 p {
@@ -72,7 +116,6 @@ hr {
 }
 
 
-
 .clearfix {
   overflow: auto;
 }
@@ -86,6 +129,10 @@ img {
   border-style: solid;
   border-color: #777777;
   border-width: thin;
+}
+
+#resumefooter {
+  margin-top: 15px;
 }
 
 footer {
