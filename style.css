@@ -1,0 +1,99 @@
+/*201701201727L   EL VIERNES   GIRO*/
+
+.firstnameUpper{
+	color: teal;
+	text-transform: uppercase;
+	text-align: left;
+	/*display: block;*/
+	padding-left: 11px;
+	}
+p{
+	text-align: left;
+	/*display: block;*/
+	padding-left: 40px;
+}
+
+h1{
+	color: rgba(0,255,0,.5) ;
+					font-weight: bold;
+					text-align: center;
+	}
+			nav {
+				/*background-color: #ff99ff;*/
+				background-color: rgba(226, 66, 244, .1);
+					width: 100%;
+					display: block;
+					border: solid green 1px;
+					/*display: inline-block;*/
+				}
+						a {
+								color: teal;
+								padding: 35px;
+								/*float: left;*/
+								/*margin: auto;*/
+							}
+							.active	{
+											color: rgba(0,0,255,.5) ;
+											font-weight: bold;
+													text-align: left;
+										}
+footer a {
+		/*padding:	33px;*/
+		/*background-color: #808080;*/
+		width: 100%;
+		display: inline;
+		/*display: block;*/
+		/*margin: auto;*/
+		/*text-align: center;*/
+	}
+
+body {
+/*	border: 2px solid black;
+	display: inline-block;*/
+		/*TO MK IT LOOK LIKE THE EXAMPLE IN THE XRC COMMENT OUT ABOVE LINE*/
+/*	height: 150px;
+*/	text-align:center;
+		border: solid black 1px;
+/*	width: 150px;
+	margin: 20px;*/
+}
+
+main {
+	text-align:center;
+	/*width: 960px;*/
+	/*margin: 20px;*/
+	margin:auto;
+}
+		h2{
+							/*color:#ffd700;*/
+							color: rgba(255,0,0,.5) ;
+							text-align: center;
+							margin: auto;
+						  display: block;
+		}
+				img {  height:222px;
+								width:111px;
+								margin:auto;
+								display: block;
+								border: solid blue 1px;
+				}
+
+div {
+	border: 2px solid black;
+/*	display: inline-block;*/
+		/*TO MK IT LOOK LIKE THE EXAMPLE IN THE XRC COMMENT OUT ABOVE LINE*/
+	height: 150px;
+	width: 150px;
+	margin: 20px;
+}
+/*.clearfix {
+  overflow: auto;
+}
+.clearfix:after {
+			visibility: hidden;
+			display: block;
+			content: " ";
+			clear: both;
+			height: 0;
+			font-size: 0;
+		}*/
