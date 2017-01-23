@@ -1,0 +1,63 @@
+main {
+  color: white;
+}
+
+main > img {
+float: right;
+}
+
+body {
+  background-color: rgb(64,64,64);
+}
+header {
+  text-align: center;
+}
+
+h1 {
+  font-style: italic;
+  color: white;
+}
+
+h2 {
+  font-family: sans-serif;
+}
+
+footer {
+  clear: both;
+  height: 70px;
+  bottom:0;
+  left: 35%;
+  position: absolute;
+  text-align: center;
+}
+footer > a
+{
+  color: rgb(10, 153, 114);
+  font-weight: bold;
+  font-family: sans-serif;
+
+}
+footer > a:not(:last-child)
+ {
+  border-right: 1px solid white;
+}
+
+nav{
+  font-weight: bold;
+  font-family: sans-serif;
+  color: green;
+  display: inline-block;
+}
+
+nav > a {
+  color: rgb(10, 153, 114);
+}
+
+nav > a:not(:last-child) {
+  color: rgb(10, 153, 114);
+  border-right: 1px solid white;
+}
+
+.active {
+  color: white;
+text-decoration: none;}
