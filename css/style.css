@@ -1,0 +1,112 @@
+html{
+	
+	
+
+}
+body{
+/*width: 100%;*/
+	
+	/*border: 5px;*/
+	
+	background-color: #616161;
+	
+	/*display: flex;
+	
+	justify-content:  space-around;
+	align-items: center;*/
+	/*width: 80%;
+	display:flex;
+	background-color: darkgrey;
+	color: white;
+	
+	border: 5px;
+		border-color: black;*/
+		
+}
+
+.outerContainer {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 80%;
+	height: 90%;
+	background-color: rgb(94, 95,75);
+	border: 5px;
+	border-color: rgb(145, 145, 145);
+	border-style: solid;
+	margin-right: auto;
+	margin-left: auto;
+
+
+}
+
+.mainContainer {
+	
+	display:flex;
+	background-color: #616161;
+	color: white;
+	flex-direction: column;
+	justify-content:  space-between;
+	align-items: center;
+	border: 5px;
+	border-color: rgb(145, 145, 145);
+	border-style: solid;
+	
+
+	margin-top: 4%;
+	margin-right: 25%;
+	margin-bottom: 5%;
+	margin-left: 25%;
+	padding: 10px;
+
+}
+header, main, footer{
+	
+	
+	
+	
+}
+header {
+	
+	
+}
+main{
+	
+	padding: 15px;
+	width: 70%;
+	word-wrap: break-word;
+
+}
+footer{
+	
+}
+
+nav {
+	text-align: center;
+}
+
+img {
+	margin-top: 7px;
+	float: right;
+	max-width: 175px;
+	margin-right: 4px;
+	padding-right: 2px;
+	
+}
+p {
+	font-size: 105%;
+	word-wrap: break-word;
+	
+
+}
+.active:hover:after {
+	content: url(WendyBite_Resume.jpg);
+	height: 150px;
+	display: block;
+
+
+}
+a {
+
+	color: rgb(6, 209, 138);
+}
