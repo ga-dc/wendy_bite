@@ -1,0 +1,43 @@
+header {
+	text-align: center;
+	/*font-family: "Times", "helvetica";*/
+	/*font-style: italic;*/
+}
+
+body {
+	background-color: #4d4d4d;
+	color: #FFFFFF;
+	line-height: 1.4em;
+	width: 480px;
+	margin: auto;
+	padding: 40px;
+	border: 3px solid grey;
+}
+
+img {
+	float: right;
+	height: 260px;
+	width: 220px;
+	border: 1px solid grey;
+	padding: 3px;
+}
+
+a {
+	color: #32CC99;
+	font-family: 'Arial';
+}
+
+footer {
+	color: #13FF4D;
+	text-align: center;
+}
+
+#wendy {
+	font-family: "Times";
+	font-style: italic;
+
+}
+
+#about {
+	font-family: 'Arial';
+}
