@@ -1,0 +1,41 @@
+body {
+font-family: san-serif;
+font-size: 14px;
+line-height: 1.5;
+color: #ffffff;
+background-color: #444444;
+display: inline-block;
+}
+
+main {
+  font-family: san-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #ffffff;
+  text-wrap: normal;
+  display: inline-block;
+}
+
+div {
+  text-align: center;
+  display: inline-block;
+  width: auto;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: ffffff;
+  font-style: italic;
+}
+
+footer {
+  color: 22d29c;
+}
+
+img {
+  float: right;
+}
