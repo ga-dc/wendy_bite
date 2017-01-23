@@ -1,0 +1,45 @@
+h1, nav{
+  text-align: center;
+  color: white;
+}
+img{
+  float: right;
+  margin: 0 0 10px 10px;
+}
+p {
+ color: white;
+ font-size: 150%
+}
+header{
+  border-bottom: 2px solid;
+  color: white;
+}
+footer{
+  text-align: center;
+}
+h2{
+  color: white;
+  font-size: 150%;
+
+}
+a{
+  color: white
+}
+
+
+.container{
+  width: 800px;
+  margin: 0 auto;
+  border: solid;
+}
+
+body{
+  background-color: #464147;
+
+border-width:
+
+}
+
+main{
+  border-width: ;
+}
