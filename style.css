@@ -9,7 +9,11 @@ margin: 30px auto;
 padding: 20px 50px 50px 50px;
 max-width: 630px;
  }
- 
+
+ h1 {
+   font-family: "Times New Roman", Times, serif;
+   font-style: italic;
+ }
 header {
 text-align: center;
 border-bottom: 3px solid gray;
@@ -21,9 +25,18 @@ border-bottom: 3px solid gray;
 }
 
 footer{
+
+  /*{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60px;
+    border-spacing: inherit;*/
+  justify-content: space-between;
   text-align: center;
   padding-top: 30px;
 }
+
 
 p {
   display: flex;
@@ -40,6 +53,7 @@ main, h1{
 }
 
 .active{
+  font-family: sans-serif;
   color: white;
 }
 
