@@ -3,7 +3,6 @@ body {
 }
 
 .content {
-
   background-color: #3f3f40;
   width:700px;
   margin:0 auto;
@@ -27,11 +26,13 @@ hr {
 a {
   color:teal;
   font-size:20px;
+  font-family:sans-serif;
 }
 
 a.active {
   text-decoration:none;
   font-size:20px;
+  font-family:sans-serif;
   color:#FFF;
   font-weight:700;
 }
@@ -57,4 +58,30 @@ p {
   h2 {
     color:#FFF;
     text-align:left;
+    font-family:sans-serif;
+  }
+  h3 {
+    text-align: left;
+    color:grey;
+    font-size:18px;
+    font-family:sans-serif;
+  }
+
+  ul {
+    list-style-type:square;
+    text-align:left;
+    line-height: 20px;
+    margin: 12px;
+  }
+  .list {
+    color:#FFF;
+    font-weight:800;
+  }
+  li {
+    color:grey;
+    margin:15px;
+  }
+  .company {
+    color:#605555;
+    font-size:18px;
   }
