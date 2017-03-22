@@ -1,0 +1,125 @@
+body {
+	background-color: #434343;
+	color: white;
+	margin: 150px;
+}
+
+h1 {
+	font-size: 30px;
+	font-style: italic;
+	padding-bottom: 20px;
+	}
+
+
+h2 {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+
+
+header {
+	text-align: center;
+}
+
+#enclosed-content {
+	border-style: solid;
+	border-color: gray;
+    border-width: 5px;
+    margin: 30px;
+
+}
+
+.wrapper {
+	padding: 15px;
+	margin: 50px;
+}
+
+nav {
+	padding-bottom: 20px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	font-weight: bold;
+}
+
+a {
+	color: #5ac28c;
+}
+
+footer {
+	text-align: center;
+	font-weight: bold;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	clear: both;
+}
+
+footer a {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.float-content {
+	/*float: right;
+	width: 60%;*/
+	padding-right: 15px;
+	
+}
+
+main p {
+	line-height: 1.5em;
+}
+
+img {
+	float: right;
+	width: 40%;
+	padding: 10px;
+}
+
+ .clearfix:after {
+        visibility: hidden;
+        display: block;
+        content: " ";
+        clear: both;
+        height: 0;
+        font-size: 0;
+      }
+ p {
+ 	font-size: 20px;
+ }
+
+ h3 {
+ 	color: gray;
+ 	font-family: sans-serif;
+ 	text-transform: uppercase;
+ }
+
+ .job-title {
+ 	font-family: sans-serif;
+ 	font-weight: bold;
+ 	list-style-type: square;
+ }
+
+ul {
+	list-style-type: square;
+}
+
+ul p {
+	color: #C8C8C8;
+	font-size: 18px;
+	line-height: 1em;
+	font-family: serif;
+}
+
+.education {
+	line-height: 1.5em;
+	font-family: sans-serif;
+}
+
+header a:active {
+	color: white;
+	text-decoration: none;
+}
+
+
+li {
+	font-family: sans-serif;
+}
