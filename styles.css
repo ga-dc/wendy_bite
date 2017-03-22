@@ -1,0 +1,125 @@
+body {
+  background: #444444;
+  color: #ffffff;
+}
+
+a {
+  color: #6ACC9C;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.active {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.container {
+  margin: 20px auto;
+  padding: 40px;
+  border: 4px solid #777777;
+  width: 550px;
+}
+
+header {
+  text-align: center;
+  border-bottom: 1px solid #777777;
+  padding-bottom: 20px;
+}
+
+header h1 {
+  font-family: Georgia, serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+nav li {
+  display: inline;
+}
+
+nav li:first-child::after {
+  content: ' |'
+}
+
+main {
+  border-bottom: 1px solid #777777;
+}
+
+main .resume-open {
+  margin-bottom: 30px;
+}
+
+main img {
+  float: right;
+  margin: 10px;
+  width: 200px;
+  padding: 5px;
+  border: 1px solid #777777;
+}
+
+main h2 {
+  color: #ffffff;
+}
+
+main h3 {
+  color: #BBBBBB;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+}
+
+.experience h4 {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.experience p {
+  margin-top: 5px;
+  color: #BCBCBC;
+}
+
+.company {
+  font-weight: 200;
+}
+
+.date {
+  font-weight: 200;
+  font-size: 11px;
+}
+
+.school {
+  font-weight: bold;
+}
+
+.education li {
+  font-weight: 100;
+  line-height: 22px;
+}
+
+main p {
+  color: #ffffff;
+  line-height: 22px;
+  font-family: serif;
+  font-size: 16px;
+}
+
+ul {
+  list-style-type: square;
+}
+
+footer {
+  margin-top: 25px;
+  text-align: center;
+}
+
+footer li {
+  display: inline;
+}
+
+footer li:after {
+  content: " |"
+}
+
+footer li:last-child:after {
+  content: " "
+}
