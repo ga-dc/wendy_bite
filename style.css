@@ -1,0 +1,42 @@
+
+h1 {
+  text-align: center;
+  color: white;
+  background-color: gray;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+h2 {
+  text-align: center;
+
+}
+
+body {
+  background-color:#3f3f40;
+  color: white;
+  float: left;
+
+
+
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.content {
+  width: 700 px;
+  border: 6px solid gray;
+  margin: auto;
+}
+
+img {
+   center;
+   border-width: 300px;
+   margin-top: auto;
+   margin-bottom: auto;
+   padding-left: 400px;
+}
