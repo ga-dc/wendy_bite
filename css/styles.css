@@ -22,6 +22,7 @@ header {
 
 h1 {
   font-size: 26px;
+  font-style: italic;
 }
 
 nav {
@@ -113,5 +114,5 @@ ul.education li {
 }
 
 ul li p {
-  margin: 8px 0 14px 0; 
+  margin: 8px 0 14px 0;
 }
