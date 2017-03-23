@@ -1,0 +1,128 @@
+h1 {
+  text-align: center;
+  font-style: italic;
+
+}
+
+header {
+  
+}
+nav {
+  text-align:center;
+  font-weight: bold;
+  text-decoration: underline;
+
+
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+}
+h2 {
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+
+body {
+  background-color: rgb(52, 52, 52);
+
+
+}
+
+p {
+  color: rgb(255, 255, 255);
+}
+
+
+img {
+  float: right;
+}
+.clearfix:after {
+       visibility: hidden;
+       display: block;
+       content: " ";
+       clear: both;
+       height: 0;
+       font-size: 0;
+     }
+
+
+
+
+footer {
+  text-align: center;
+  font-weight: bold;
+
+
+}
+
+a {
+  color: rgb(31, 208, 133);
+}
+
+.active {
+  color: rgb(255, 255, 255);
+}
+.container {
+  margin: 0 auto;
+  width: 600px;
+  border: 5px solid rgb(100, 100, 100);
+  padding: 60px;
+}
+
+.experience {
+  color: rgb(173, 173, 173);
+}
+
+.education {
+  color: rgb(173, 173, 173);
+  font-weight: bold;
+}
+
+.developer {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+.github {
+  color: rgb(255, 255, 255);
+}
+.editor {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+.complaint {
+color: rgb(255, 255, 255);
+}
+
+.knitter {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+.christmas {
+  color: rgb(255, 255, 255);
+}
+.president {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+.golden {
+  color: rgb(255, 255, 255);
+}
+.certified {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+
+
+li {
+  color: rgb(173, 173, 173);
+  font-weight: bold;
+}
+
+.resume {
+  margin: 0 auto;
+  width: 600px;
+  border: 5px solid rgb(100, 100, 100);
+  padding: 60px;
+}
