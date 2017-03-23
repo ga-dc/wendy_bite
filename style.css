@@ -1,0 +1,90 @@
+h1 {
+	text-align: center;
+	padding-top: 20px;
+	font-family: 'Roboto Slab', serif;
+
+
+
+}
+
+h2 {
+	color: white;
+}
+
+
+nav {
+	text-align: center;
+	color: #3FBF3F
+
+	
+
+}
+
+
+img {
+	display: block;
+	float: right;
+	margin: 0 0 10px 10px;
+}
+
+main {
+	text-align: left;
+	margin: 10px 20px 10px 20px;
+	overflow: auto;
+	border-top: #B9ABAB 1px solid;
+	border-bottom: #B9ABAB 1px solid;
+	/*background-color: #545854*/
+	font-family: 'Roboto Slab', serif;
+	
+}
+
+footer {
+	text-align: center;
+	padding: 10px;
+	text-decoration-line: underline;
+	color: #3FBF3F
+
+
+}
+
+body {
+	outline: #B9ABAB solid thick;
+	margin: 10px 400px 10px 400px;
+	background-color: #545854;
+    
+
+	
+}
+
+a {
+	color: #3FBF3F;
+
+}
+
+.active {
+	color: white;
+}
+
+.relevant-experience {
+	color: white;
+	text-transform: uppercase;
+}
+
+.relative-bullets {
+	font-size: 20px;
+	color: white;
+}
+
+li,p {
+	color: #BAAFAF;
+}
+
+.ed {
+	color: white;
+}
+
+.line {
+	margin: 3px;
+	color: white;
+}
+
