@@ -6,15 +6,11 @@ body {
   margin:2em auto;
   padding:2em;
 }
-h1 {
-  font-weight:normal;
-  font-style:italic;
-}
 h1,p {
   font-family:Georgia, serif;
 }
 p {
-  line-height:1.6;
+  line-height:1.7;
 }
 img {
   border: 1px solid #ccc;
@@ -24,16 +20,12 @@ img {
 }
 a {
   color:#66CD9B;
-  font-weight:bold;
 }
 a.active {
-  text-decoration:none;
   color:#fff;
 }
 main {
-  border-color:#ccc;
-  border-width:1px 0;
-  border-style:solid;
+  border: 3px solid grey;
   padding:2em 0;
 }
 
@@ -41,10 +33,10 @@ header, footer {
   text-align:center;
 }
 header {
-  padding-bottom:20px;
+  padding-bottom: 20px;
 }
 footer {
-  padding-top:20px;
+  padding-top: 20px;
 }
 nav, footer {
   color:#ccc;
@@ -52,7 +44,7 @@ nav, footer {
 }
 nav a, footer a {
   font-size:1rem;
-  padding:0 10px;
+  padding:0 10px 0 10px;
   display:inline-block;
 }
 nav a:not(:last-of-type), footer a:not(:last-of-type) {
