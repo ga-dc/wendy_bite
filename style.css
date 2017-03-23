@@ -13,34 +13,39 @@ p {
   line-height:1.7;
 }
 img {
-  border: 1px solid #ccc;
+  border: 1px solid grey;
   padding:5px;
   margin-left:1em;
   float:right;
 }
-a {
-  color:#66CD9B;
-}
-a.active {
-  color:#fff;
+body {
+  background: #444444;
+  color: #fff;
+  border:5px solid #777777;
+  width:40em;
+  margin:2em auto;
+  padding:2em
 }
 main {
   border: 3px solid grey;
   padding:2em 0;
 }
-
-header, footer {
-  text-align:center;
-}
 header {
   padding-bottom: 20px;
+  text-align: center;
 }
 footer {
+  text-align: center;
   padding-top: 20px;
-}
-nav, footer {
   color:#ccc;
   font-size:0;
+}
+nav {
+  color:#ccc;
+  font-size:0;
+}
+a {
+  color:#66CD9B;
 }
 nav a, footer a {
   font-size:1rem;
