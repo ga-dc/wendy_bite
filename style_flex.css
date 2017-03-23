@@ -1,0 +1,49 @@
+
+body {
+  background-color: #444444;
+  border: 4px solid thin white;
+}
+
+main {
+  display: flex;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  color: #FAF9F9;
+}
+
+h1 {
+  font-style: italic;
+  color: #FAF9F9;
+}
+
+a {
+  text-decoration: none;
+  color: cyan;
+  font-family: Arial, sans-serif;
+}
+
+a:active {
+  color: white;
+}
+
+footer {
+  display: flex;
+  min-height: 200px;
+  align-items: flex-end;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+h2 {
+  align-items: flex-end;
+  font-family: Arial, sans-serif;
+}
+
+.betty {
+  display: flex;
+  flex-direction: row-reverse;
+}
