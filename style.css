@@ -1,0 +1,44 @@
+body {
+  background-color: #696969;
+  color: white;
+}
+
+h1{
+  font: 40px Georgia, serif;
+  font-style: italic;
+}
+
+h2{
+  font: 20px Helvetica;
+  font-weight: bolder;
+}
+
+h3{
+  font: 20px Helvetica;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+head{
+  text-align: center;
+}
+
+.headshot {
+  float: right;
+  width: 30%;
+  padding: 10px;
+}
+
+footer {
+  text-align: center;
+  clear: both;
+}
+
+div.container{
+  width: 600px;
+  margin: 0 auto;
+}
+
+.clearfix {
+  overflow: auto;
+}
