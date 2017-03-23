@@ -18,17 +18,15 @@ h1 {
   font-family:serif;
 }
 hr {
-  margin-top:30px;
-  width:80%;
+  margin:30px;
+  width:90%;
   text-align:center;
-
 }
 a {
-  color:teal;
+  color:aquamarine;
   font-size:20px;
   font-family:sans-serif;
 }
-
 a.active {
   text-decoration:none;
   font-size:20px;
@@ -43,8 +41,8 @@ span {
 }
 img {
   float:right;
-
   padding:4px;
+  margin:15px;
   border:1px solid grey
 }
 footer {
@@ -54,35 +52,41 @@ p {
   color:white;
   text-align:left;
   line-height:25px;
-  }
-  h2 {
-    color:#FFF;
-    text-align:left;
-    font-family:sans-serif;
-  }
-  h3 {
-    text-align: left;
-    color:grey;
-    font-size:18px;
-    font-family:sans-serif;
-  }
-
-  ul {
-    list-style-type:square;
-    text-align:left;
-    line-height: 20px;
-    margin: 12px;
-  }
-  .list {
-    color:#FFF;
-    font-weight:800;
-  }
-  li {
-    color:grey;
-    margin:15px;
-  }
-  .company {
-    color:#605555;
-    font-size:18px;
-  }
-.education
+  margin-bottom:35px;
+  font-size:18px;
+}
+h2 {
+  color:#FFF;
+  text-align:left;
+  font-family:sans-serif;
+}
+h3 {
+  text-align: left;
+  color:grey;
+  font-size:18px;
+  font-family:sans-serif;
+}
+ul {
+  list-style-type:square;
+  text-align:left;
+  line-height: 20px;
+  margin: 20px;
+}
+.list {
+  color:#FFF;
+  font-weight:800;
+  font-family:sans-serif;
+}
+li {
+  color:#FFF;
+  margin:15px;
+}
+.company {
+  color:#a3a3a3;
+  font-size:18px;
+  font-family:sans-serif;
+}
+.text {
+  color:grey;
+  font-size:16px;
+}
