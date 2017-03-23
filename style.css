@@ -1,0 +1,48 @@
+
+body {
+  font-family: "Palatino Linotype", Palatino, serif;
+  padding: 25px;
+  color: white;
+  width: 50vw;
+  margin: auto;
+  border: 3px solid rgb(100, 100, 100);
+}
+
+header {
+  font-style:italic;
+}
+
+img {
+float:right;
+border: 1px, white;
+padding: 4px;
+border: 1px solid rgb(100,100,100);
+}
+
+* {
+  background: RGB(68, 68, 68);
+  color: white;
+}
+
+a {
+  color: rgb(101,204,152)
+}
+
+header {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+main {
+  border-color: rgb(100, 100, 100);
+  border-style: solid;
+  border-width: 2px 0px 2px 0px;
+  margin: 2em;
+}
