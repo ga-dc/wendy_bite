@@ -1,0 +1,105 @@
+body {
+	background-color: #3d3d3d;
+	border: solid #949494 3px;
+	margin: 3%;
+}
+
+header, footer {
+	text-align: center;
+}
+
+h1 {
+	color: white;
+	font-family: 'PT Serif', serif;
+	font-style: italic;
+}
+
+.nav-bar {
+	color: #949494;
+	display: inline-block;
+}
+
+a {
+	color: #77b17c;
+	font-weight: bold;
+}
+
+.active {
+	color: white;
+	text-decoration: none;
+}
+
+nav {
+	margin-bottom: 5%;
+}
+
+h2 {
+	color: #d9d9d9;
+	font-size: 20px;
+}
+
+main {
+	border-top: solid #949494 1px;
+	border-bottom: solid #949494 1px;
+	box-sizing: border-box;
+	margin: 0 8%;
+}
+
+p {
+	color: #d9d9d9;
+	font-family: 'PT Serif', serif;
+	font-size: 14px;
+	line-height: 1.5em;
+}
+
+.headshot {
+	border: solid #949494 1px;
+	float: right;
+	height: 230px;
+	margin: 0 0 5% 5%;
+	padding: 4px;
+}
+
+img {
+	height: 230px;
+}
+
+footer {
+	padding: 3%;
+}
+
+h3 {
+	color: #949494;
+	font-size: 14px;
+}
+
+.resume-item {
+	color: #d9d9d9;
+	list-style-type: square;
+}
+
+.title {
+	margin: 0;
+	font-family: Arial;
+}
+
+.blurb {
+	margin-top: 0;
+	color: #949494;
+}
+
+.position {
+	color: white;
+	font-weight: bold;
+}
+
+.company {}
+
+.timeframe {
+	font-size: 12px;
+	color: #949494;
+}
+
+.resume-body {
+	margin-bottom: 5%;
+}
