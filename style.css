@@ -1,0 +1,51 @@
+body {
+  background-color: #444444;
+  color: white;
+  border: 5px solid;
+  border-color: #777777;
+  padding: 50px;
+  Margin: 20px auto;
+  max-width: 550px;
+
+}
+
+
+
+img {
+  float: right;
+  border: 1px solid;
+  padding: 5px;
+  margin: 0 0 20px 20px;
+}
+
+a {
+  color: #57c78a;
+  font-weight: bold;
+}
+
+.active {
+  text-decoration: none;
+  color: white;
+}
+
+main{
+  border-color:#ccc;
+  border-width:1px 0;
+  border-style:solid;
+  padding:2em 0;
+}
+
+header,
+footer{
+  text-align:center;
+}
+header{
+  padding-bottom:20px;
+}
+footer{
+  padding-top:20px;
+}
+
+span {
+  padding-left: 5px;
+}
