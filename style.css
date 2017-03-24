@@ -5,6 +5,8 @@ body{
   border:5px solid brown;
   margin:30px 10px;
   height:1000px;
+  width:500px;
+  margin:0 auto;
 }
 header{
 
@@ -39,11 +41,15 @@ img{
   width: :200px;
   height:200px;
   overflow:auto;
+  border:2px solid white;
 }
 footer{
   display:inline-block;
   text-decoration:none;
 }
 footer a{
-      color:white;
+      color:FFaa0012;
+      font-size: 20px;
+      font-weight:bold;
+      text-align:center;
 }
