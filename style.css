@@ -1,0 +1,44 @@
+body {
+  font-family: Sans-Serif;
+  color: white;
+  background-color: #333333;
+}
+
+.box {
+  width: 500px;
+  margin: 33px auto;
+  border-color: gray;
+  border-style: solid;
+  padding-left: 22px;
+  padding-right: 22px;
+}
+
+a:link {
+  color: cyan;
+}
+a:hover {
+    color: white;
+}
+a:active {
+  color: white;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+header {
+  text-align: center;
+  border-color: gray;
+  border-bottom: solid;
+  border-width: thin;
+}
+
+p {
+  margin: 33, 33;
+}
+
+footer {
+  text-align: center;
+}
