@@ -1,0 +1,46 @@
+body {
+border: 2px solid darkgray;
+padding: 10px;
+background-color: #5B5A5A;
+color: white;
+}
+span a {
+  text-decoration: none;
+}
+h1 {
+  text-align: center;
+
+}
+nav {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+.header {
+  text-align: center;
+}
+span {
+  color: green;
+}
+img {
+  float: right;
+  border: 3px solid darkgray;
+  padding: 5px;
+}
+h2 {
+  border-top: 1px solid darkgray;
+}
+footer {
+  border-top: 1px solid darkgray;
+  text-align: center;
+  font-size: 20px;
+}
+
+li:after {
+    content: "|";
+    padding-left: 5px;
+    padding-right: 5px;
+}
+ul li {
+  display: inline;
+}
