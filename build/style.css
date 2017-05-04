@@ -1,0 +1,58 @@
+body {
+    background-color: #454545;
+    color: white;
+    font-weight: bold;
+    border: 5px solid #888;
+    margin: 50px;
+    width: 450px;
+    margin: 40px auto;
+    padding: 10px 20px;
+}
+header {
+    text-align: center;
+}
+a {
+    padding: 0 5px;
+    border-right: 2px solid #888;
+}
+a:last-child {
+    border-right: none;
+}
+a.active {
+    color: white;
+    text-decoration: none;
+}
+a:not(.active)  {
+    color: #6ACC9C;
+}
+footer {
+    clear: both;
+    text-align: center;
+    padding-bottom: 20px;
+}
+img {
+    float: right;
+    padding: 20px 0 20px 20px;
+}
+main {
+    padding: 20px;
+}
+main, header {
+    padding-bottom: 10px;
+}
+main div {
+    margin: 20px auto;
+    width: 520px;
+    border-bottom: 1px solid #888;
+
+}
+header div {
+    margin: 20px auto;
+    width: 570px;
+    border-bottom: 1px solid #888;
+}
+.clearfix {
+    clear: both;
+    display: table;
+    content: '';
+}
