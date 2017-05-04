@@ -1,0 +1,42 @@
+p {
+  color: grey;
+  padding: 0 300px 0 300px;
+  font-size: 16px;
+  text-align: left;
+}
+body {
+  background: #48464F;
+  color: #FFF7E8;
+  display: inline-block;
+  text-align: center;
+}
+.img {
+  float: right;
+  margin: 0 0 10px 10px;
+  padding: 0 300px 0 0;
+}
+a {
+  font-size: 20px;
+  padding: 100px 10px 0 0;
+  margin: 100px 0 0 0;
+  color: #1DB56F;
+}
+h2 {
+  text-align: left;
+  padding: 0 0 0 300px;
+  font-family: 'Roboto', sans-serif;
+}
+h1 {
+  font-style: italic;
+  font-size: 50px;
+}
+.about {
+  font-family: 'Roboto', sans-serif;
+  color: #FFF7E8;
+  padding: 0 90px 0 0;
+  text-align: center;
+}
+.resume {
+  text-align: center;
+  padding: 0 0 0 90px;
+}
