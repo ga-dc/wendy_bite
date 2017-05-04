@@ -1,0 +1,72 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	width: 90%;
+	max-width: 800px;
+	background: rgb(70,70,70);
+	margin: 30px auto;
+	padding: 40px;
+	border: 5px solid rgb(125,125,125);
+}
+/* heading styles */
+header{
+	text-align: center;
+	color: rgb(225,225,225);
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	border-bottom: 2px solid rgb(125,125,125);
+}
+a{
+	text-decoration: none;
+	color: rgb(95,220,188);
+	font-size: 18.5px;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+nav :first-child{
+	border-right: 2px solid rgb(125,125,125);
+	padding-right: 5px;
+}
+nav a.active{
+	color: rgb(255,255,255);
+}
+nav{
+	padding-bottom: 25px;
+}
+/* Main styles */
+img{
+	float:right;
+	border: 1px solid rgb(125,125,125);
+	padding: 5px;
+	margin-left: 25px;
+}
+main{
+	color: white;
+	padding: 5px;
+}
+main h2{
+	font-family: sans-serif;
+}
+main p{
+font-size: 18.5px;
+letter-spacing: .5px;
+line-height: 28px;
+}
+/* footer styles*/
+footer{
+	width: 100%;
+	border-top: 2px solid rgb(125,125,125);
+	text-align: center;
+	padding-top: 30px;
+	text-decoration: underline;
+}
+footer a:nth-child(2){
+	border-right: 2px solid rgb(125,125,125);
+	border-left: 2px solid rgb(125,125,125);
+	padding: 0 5px;
+}
+footer a:nth-child(3){
+	border-right: 2px solid rgb(125,125,125);
+	padding: 0 5px;
+}
