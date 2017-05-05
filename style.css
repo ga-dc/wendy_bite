@@ -1,0 +1,106 @@
+body {
+	background: rgb(68,68,68);
+	border: 3px solid rgb(119,119,119);
+	margin: 15px;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	color: rgb(187,187,187);
+	font-family: 'Overpass', sans-serif;
+	font-size: 14px;
+	overflow: hidden;
+	padding: 15px;
+
+}
+
+.title {
+	color:rgb(255,255,255);
+	font-size: 16px;
+	font-weight: bold;
+}
+.clearfix {
+  clear: both;
+}
+
+.active {
+	color: rgb(255,255,255);
+	text-decoration: none;
+}
+
+.pipe {
+	color: rgb(119,119,119);
+}
+
+.top{ 
+	color:rgb(255,255,255);
+ }
+
+img {
+	float:right;
+	padding: 5px;
+	margin: 8px;
+	border: 2px solid rgb(119,119,119);
+	height: auto;
+}
+
+.clearfix{
+	clear:both;
+}
+
+h1 {
+	text-align: center;
+	color: rgb(255,255,255);
+}
+
+h2 {
+	color: rgb(255,255,255);
+}
+
+nav {
+	text-align: center;
+	padding-bottom: 25px;
+}	
+
+li {
+	margin-top:10px;
+	margin-bottom: 10px;
+	list-style-type: square;
+}
+
+li:before{
+	color:rgb(255,255,255);
+}
+
+footer {
+	position: relative;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 35px;
+}
+
+
+nav a {
+	color: rgb(106,205, 157);
+}
+
+footer a {
+	color: rgb(106,205, 157);
+	padding-bottom: 10px;
+}
+
+hr {
+	margin: 0 8px;
+}
+
+h3 {
+	font-variant-caps: small-caps;
+}
+
+/*main {
+	padding: 15px;
+}*/
+
+
+
+
+
