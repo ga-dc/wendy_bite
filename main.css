@@ -1,0 +1,50 @@
+* {
+  color: white;
+}
+
+body {
+  border: 5px solid grey;
+  padding: 30px;
+  margin: 15px;
+  background: #444444;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  font-style: italic;
+}
+
+a.active {
+  pointer-events: none;
+  cursor: default;
+  color: white;
+  text-decoration: none;
+}
+
+a {
+  color: #327663;
+}
+
+img {
+  float: right;
+}
+
+header:after {
+  content: "";
+  display: block;
+  border: 1px solid grey;
+  margin-top: 30px;
+}
+footer:before {
+  content: "";
+  display: block;
+  border: 1px solid grey;
+  margin-bottom: 30px;
+}
+
+footer {
+  text-align: center;
+}
