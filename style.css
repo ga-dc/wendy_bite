@@ -1,0 +1,100 @@
+/* GENERAL */
+
+body {
+  background-color: #444;
+  font-family: Georgia, serif;
+}
+
+#container {
+  width: 600px;
+  margin: 30px auto;
+  border: 5px solid #767676;
+  padding: 50px;
+  color: white;
+}
+
+header, footer {
+  text-align: center;
+}
+
+header, main {
+  border-bottom: 2px solid #767676;
+}
+
+header, nav, main, h1, h2, h3, p, ul {
+  margin-bottom: 30px;
+}
+
+a {
+  color: #00d59d;
+  font-family: arial, sans-serif;
+  font-weight: bold;
+}
+
+a:not(:first-child) {
+  margin-left: 6px;
+  border-left: 2px solid #767676;
+  padding-left: 10px;
+}
+
+/* HEADER ONLY */
+
+h1 {
+  font-size: 35px;
+  font-style: italic;
+}
+
+.active {
+  color: white;
+  text-decoration: none;
+}
+
+/* MAIN ONLY */
+
+h2 {
+  font-family: arial, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+img {
+  float: right;
+  margin: 0 0 10px 30px;
+  border: 2px solid #767676;
+  padding: 5px;
+}
+
+p, li {
+  font-size: 16px;
+  line-height: 1.6em;
+}
+
+/* RESUME ONLY */
+
+h3 {
+  color: #bbb;
+  font-family: arial, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+ul {
+  margin-left: 40px;
+  list-style-type: square;
+  font-family: arial, sans-serif;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.date {
+  color: #bbb;
+  font-size: 13px;
+}
+
+.description {
+  color: #bbb;
+  font-family: georgia, serif;
+}
