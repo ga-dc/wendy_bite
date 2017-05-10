@@ -1,0 +1,50 @@
+h1, h2 {
+  color: white;
+}
+h2 {
+  text-align: left;
+}
+
+body {
+  background-color: #333;
+  color: white;
+  border: 2.5px solid lightgrey;
+  box-sizing:border-box;
+  text-align: center;
+  display: block;
+  padding: 15px;
+  margin: 5%;
+  outline: lightgrey solid line 2px;
+}
+
+nav .active {
+  color: white;
+}
+nav a, footer a {
+  color: lightgreen;
+}
+p {
+  text-decoration-color: white;
+    -webkit-columns: 100px 1;
+    width: 600px;
+    height: 150px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: center;
+    align-content: center;
+}
+img {
+    display: block;
+    border: 2px solid lightgrey;
+    padding: 3px;
+    position: absolute;
+    right: 200px;
+    top: 200px;
+    max-width: 450px;
+    max-height: 250px;
+}
+hr {
+  width:90%; height:0.5px; background: lightgrey; margin: .5%;
+}
