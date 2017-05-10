@@ -1,0 +1,64 @@
+  /*html body style*/
+body{
+  background: #444444;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  width: 660px;
+  height: 760px;
+  margin: 32px auto;
+  padding: 30px;
+  text-align: center;
+  border: 5px solid #777777;
+}
+/*navigation elements*/
+nav{
+  padding-bottom: 15px;
+}
+/*main style- to have the top and bottom space*/
+main{
+  padding:32px 0;
+}
+/*font for h1 and p elements*/
+h1,p{
+  font-family: Georgia, serif;
+}
+h1{
+  font-style: italic;
+  font-weight: normal;
+}
+p{
+  text-align: left;
+  line-height: 1.5;
+}
+nav a{
+  padding:5px;
+}
+
+ a{
+  font-weight: bold;
+  color:#66cd9b;
+}
+/* To highlight the active link */
+a.active{
+  text-decoration: none;
+  color: #ffffff;
+  border-right: 1px solid #ffffff;
+  padding-right: 5px;
+
+}
+/*image styles*/
+img{
+  border: 1px solid #fff;
+  padding:5px;
+  padding-left: 10px;
+  float: right;
+}
+/* To create the right side vertical
+lines for the footer elements*/
+.foot_icon{
+  border-right: 1px solid #fff;
+  padding-right: 5px;
+}
+footer{
+  padding: 20px 0;
+}
