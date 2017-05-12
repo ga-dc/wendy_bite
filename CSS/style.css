@@ -1,0 +1,32 @@
+body{
+  color:white;
+  background-color: #3B444B;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  margin: 10px;
+  padding: 20px;
+  border: 5px solid  	#8F9779;
+  width:650px;
+}
+main{
+  width:560px;
+}
+img{
+  float: right;
+}
+#about{
+  color:#F2F0E6;
+  text-decoration: none;
+  font-weight: bolder;
+}
+#resume{
+  color: #40826D;
+  font-weight: bolder;
+}
+footer a{
+  color:#40826D;
+  font-weight: bolder;
+}
