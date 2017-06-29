@@ -1,0 +1,58 @@
+img {
+  float: right;
+  border: 2px solid grey;
+  padding: 5px;
+  margin: 10px;
+}
+
+body {
+  background-color: #444444;
+  color: #f2f2f2;
+  font-family: Times, Courier, sans-serif;
+  border: 5px solid #a9a9a9;
+  margin:20px;
+}
+
+h1 {
+  text-align:center;
+  font-style:italic;
+  font-size:40px;
+}
+
+nav {
+  text-align:center;
+
+}
+
+a {
+  font-weight:bold;
+  color: #66CDAA;
+  padding:5px;
+  font-size:18px;
+}
+.active {
+  color:#f2f2f2;
+  font-weight: bold;
+  text-decoration: none;
+  border-right: 2px solid grey;
+  margin-right:8px;
+  padding-right:15px;
+}
+
+p {
+  font-size:20px;
+  line-height:1.2em;
+}
+main {
+  border-top:2px solid grey;
+  border-bottom: 2px solid grey;
+  margin : 50px;
+  padding: 20px;
+}
+
+footer {
+  text-align:center;
+  padding:20px;
+  margin:40px;
+
+}
