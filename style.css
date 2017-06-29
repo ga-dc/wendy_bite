@@ -1,0 +1,114 @@
+body {
+	background-color: #444444;
+	margin: 2% 15%;
+	color: #fff;
+	border: solid #777 6px;
+	padding: 10px 30px;
+	font-family: Georgia, serif;
+	font-size: 14px;
+	
+}
+
+hr.style{
+	border-top: 1px solid #777;
+}
+
+main {
+		line-height: 20px;
+}
+a {
+	color: #80CA9E;
+	font-family: Arial;
+	font-weight: 800;
+}
+
+a.active {
+	color: #ffffff;
+	font-family: Arial;
+	font-weight: 800;
+	text-decoration: none;
+
+}
+
+h1 {
+
+	font-family: Droid, serif;
+	color:#fff;
+	font-style: italic;
+}
+
+h2 {
+	color: #ffffff;
+	font-family: Arial;
+	font-weight: 800;
+	text-decoration: none;
+	margin: 0px;
+	padding: 20px 0px;
+}
+
+h3 {
+	color: #a3a3a3;
+	text-transform: uppercase;
+	font-family: Arial;
+	font-weight: 800;
+	text-decoration: none;
+	margin: 0px;
+	padding: 20px 0px 0px;
+}
+
+img {
+	float: right;
+	border: solid #777 1px;
+	margin: 20px;
+	padding: 10px;
+
+}
+
+header {
+	text-align: center;
+	
+}
+nav{
+	padding-bottom: 30px;
+}
+footer {
+	text-align: center;
+	padding: 30px 30px 30px;
+}
+
+.job {
+	font-family: Arial, sans-serif;
+	color: #fff;
+	font-weight: 800;
+}
+
+.company {
+	font-family: Arial, sans-serif;
+	color: #fff;
+	font-weight: 100;
+}
+
+.years {
+	font-family: Arial, sans-serif;
+	color: #a3a3a3;
+	font-size: 12px;
+}
+
+ul {
+	color: #a3a3a3;
+	font-size: 14px;
+	padding: 10px 30px;
+}
+
+li{
+	padding: 10px;
+}
+
+.education{
+
+	padding: 10px 30px 20px;
+}
+
+.edu{
+	padding: 5px;
+}
