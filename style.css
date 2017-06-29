@@ -1,0 +1,57 @@
+
+
+body {
+  background: #444444;
+}
+img {
+  float: right;
+  padding: 0 40px;
+}
+
+.container {
+  width: 700px;
+  border: 10px solid gray;
+  margin: 0 auto;
+
+}
+
+header{
+  text-align: center;
+  color: white;
+}
+
+
+.headernav{
+  color: green;
+  font-size: 27px;
+}
+
+p{
+
+}
+
+
+footer{
+
+  text-align: center;
+}
+
+a{
+  color: green;
+  font-size: 24px;
+}
+
+.active{
+  color: white;
+  text-decoration: none;
+}
+
+p{
+  color: white;
+  padding: 10px;
+  font-size: 19px;
+}
+
+h2{
+  color: white;
+}
