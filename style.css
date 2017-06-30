@@ -1,0 +1,65 @@
+head {
+  margin: 30px auto 15px auto;
+}
+
+body {
+  background: #3c3838;
+  color: white;
+}
+
+nav {
+  text-align: center;
+  font-family: 'Hind', sans-serif;
+}
+
+h1 {
+  font-family: 'Spectral', serif;
+  text-align: center;
+  font-style: italic;
+  font-size: 200%;
+}
+
+h2 {
+  font-family: 'Hind', sans-serif;
+  font-size: 125%;
+}
+
+p {
+   font-size: 85%;
+   line-height: 18px;
+}
+
+hr {
+  width: 90%;
+}
+
+img {
+  float: right;
+  border: 2px solid #A4B1AD;
+  margin-left: 30px;
+  margin-bottom: 15px;
+  height: 220px;
+  width: 180px;
+  display: block;
+  padding: 3px;
+}
+
+main {
+  margin: 20px 30px
+}
+
+.container {
+  width: 530px;
+  border: 3px solid #A4B1AD;
+  margin: 0 auto;
+  background: #4f4747
+}
+footer {
+  font-family: 'Hind', sans-serif;
+  text-align: center;
+  margin: 20px auto 30px auto;
+}
+
+html {
+  background: #4f4747;
+}
