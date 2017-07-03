@@ -1,0 +1,30 @@
+body{
+  margin:40px 350px;
+  color: black;
+  border 10px solid #777777;
+  background: white;
+
+  }
+
+  header{
+    text-align: center;
+    margin: 0 auto;
+
+  }
+
+  main{
+
+
+  }
+
+
+
+footer{
+  display: block;
+}
+img{
+  float: left;
+}
+p{
+  padding: 60px;
+}
