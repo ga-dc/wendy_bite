@@ -1,30 +1,50 @@
 body{
   margin:40px 350px;
-  color: black;
-  border 10px solid #777777;
-  background: white;
-
+  color: white;
+  border 100px solid #777777;
+  background: #323232;
+  border-style: solid;
+  border-color: #eeeeee;
+  text-align: center;
+  padding: 10px 0px;
   }
 
   header{
     text-align: center;
     margin: 0 auto;
-
   }
-
-  main{
-
-
-  }
-
-
 
 footer{
   display: block;
+  text-align: center;
+  padding: 40px;
+
 }
+
+.contacts{
+  color: #32cd32;
+}
+/*
+main{
+  display: flex;
+}
+*/
+hr{
+  width: 85%;
+  size: "7";
+  align: center;
+}
+
 img{
-  float: left;
+  float: right;
+  margin: 1px;
+
+  outline: solid .5px white;
+  padding: 5px
 }
+
 p{
-  padding: 60px;
+  padding: 90px;
+  margin: 20px 60px;
+
 }
